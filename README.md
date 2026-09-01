@@ -20,40 +20,43 @@
   </h4>
 
   <!-- Social Icons -->
+<div align="center">
+  <a href="https://www.linkedin.com/in/niteshk15252/">
+    <picture>
+      <source media="(prefers-color-scheme: dark)" srcset="icons/linkedin-white.svg">
+      <source media="(prefers-color-scheme: light)" srcset="icons/linkedin-black.svg">
+      <img src="icons/linkedin-black.svg" alt="LinkedIn">
+    </picture>
+  </a>
+  &nbsp;&nbsp;&nbsp;
 
-  <div align="center">
-      <a href="https://www.linkedin.com/in/niteshk15252/#gh-light-mode-only"><img src="icons/linkedin-black.svg" alt="LinkedIn"></a>
-    <a href="https://www.linkedin.com/in/niteshk15252/#gh-dark-mode-only"><img src="icons/linkedin-white.svg" alt="LinkedIn"></a>
-    &nbsp;&nbsp;&nbsp;
+  <a href="https://github.com/nitesh404">
+    <picture>
+      <source media="(prefers-color-scheme: dark)" srcset="icons/github-white.svg">
+      <source media="(prefers-color-scheme: light)" srcset="icons/github-black.svg">
+      <img src="icons/github-black.svg" width="28" alt="GitHub">
+    </picture>
+  </a>
+  &nbsp;&nbsp;&nbsp;
 
+  <a href="mailto:niteshe404@gmail.com">
+    <picture>
+      <source media="(prefers-color-scheme: dark)" srcset="icons/email-white.svg">
+      <source media="(prefers-color-scheme: light)" srcset="icons/email-black.svg">
+      <img src="icons/email-black.svg" width="28" alt="Email">
+    </picture>
+  </a>
+  &nbsp;&nbsp;&nbsp;
 
-<a href="https://github.com/nitesh404">
-  <img
-    src="https://raw.githubusercontent.com/nitesh404/nitesh404/main/icons/github-black.svg"
-    width="28"
-    alt="GitHub"
-  >
-</a>
-&nbsp;&nbsp;&nbsp;
+  <a href="https://t.me/krpp404">
+    <picture>
+      <source media="(prefers-color-scheme: dark)" srcset="icons/telegram-white.svg">
+      <source media="(prefers-color-scheme: light)" srcset="icons/telegram-black.svg">
+      <img src="icons/telegram-black.svg" width="28" alt="Telegram">
+    </picture>
+  </a>
+</div>
 
-<a href="mailto:niteshe404@gmail.com">
-  <img
-    src="https://raw.githubusercontent.com/nitesh404/nitesh404/main/icons/email-black.svg"
-    width="28"
-    alt="Email"
-  >
-</a>
-&nbsp;&nbsp;&nbsp;
-
-<a href="https://t.me/krpp404">
-  <img
-    src="https://raw.githubusercontent.com/nitesh404/nitesh404/main/icons/telegram-black.svg"
-    width="28"
-    alt="Telegram"
-  >
-</a>
-
-  </div>
 
   <br>
 
