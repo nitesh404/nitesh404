@@ -26,7 +26,7 @@
     <picture>
       <source media="(prefers-color-scheme: dark)" srcset="icons/linkedin-white.svg">
       <source media="(prefers-color-scheme: light)" srcset="icons/linkedin-black.svg">
-      <img src="icons/linkedin-black.svg" alt="LinkedIn">
+      <img src="icons/linkedin-black.svg" width="28" alt="LinkedIn">
     </picture>
   </a>
 
