@@ -28,30 +28,57 @@
       </picture>
     </a>
 
-```
-<a href="https://github.com/nitesh404">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="./icons/github-white.svg">
-    <img src="./icons/github-black.svg" width="28" alt="GitHub">
-  </picture>
-</a>
+<div align="center">
 
-<a href="mailto:niteshe404@gmail.com">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="./icons/email-white.svg">
-    <img src="./icons/email-black.svg" width="28" alt="Email">
-  </picture>
-</a>
+  <a href="https://www.linkedin.com/in/niteshk15252">
+    <picture>
+      <source
+        media="(prefers-color-scheme: dark)"
+        srcset="https://raw.githubusercontent.com/nitesh404/nitesh404/main/icons/linkedin-white.svg">
+      <img
+        src="https://raw.githubusercontent.com/nitesh404/nitesh404/main/icons/linkedin-black.svg"
+        width="28"
+        alt="LinkedIn">
+    </picture>
+  </a>
 
-<a href="https://t.me/krpp404">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="./icons/telegram-white.svg">
-    <img src="./icons/telegram-black.svg" width="28" alt="Telegram">
-  </picture>
-</a>
-```
+  <a href="https://github.com/nitesh404">
+    <picture>
+      <source
+        media="(prefers-color-scheme: dark)"
+        srcset="https://raw.githubusercontent.com/nitesh404/nitesh404/main/icons/github-white.svg">
+      <img
+        src="https://raw.githubusercontent.com/nitesh404/nitesh404/main/icons/github-black.svg"
+        width="28"
+        alt="GitHub">
+    </picture>
+  </a>
 
-  </div>
+  <a href="mailto:niteshe404@gmail.com">
+    <picture>
+      <source
+        media="(prefers-color-scheme: dark)"
+        srcset="https://raw.githubusercontent.com/nitesh404/nitesh404/main/icons/email-white.svg">
+      <img
+        src="https://raw.githubusercontent.com/nitesh404/nitesh404/main/icons/email-black.svg"
+        width="28"
+        alt="Email">
+    </picture>
+  </a>
+
+  <a href="https://t.me/krpp404">
+    <picture>
+      <source
+        media="(prefers-color-scheme: dark)"
+        srcset="https://raw.githubusercontent.com/nitesh404/nitesh404/main/icons/telegram-white.svg">
+      <img
+        src="https://raw.githubusercontent.com/nitesh404/nitesh404/main/icons/telegram-black.svg"
+        width="28"
+        alt="Telegram">
+    </picture>
+  </a>
+
+</div>
 
   <br>
 
