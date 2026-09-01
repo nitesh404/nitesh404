@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg"
+width="1351"
+height="55"
+viewBox="0 0 1351 55">
+
+<style>
+text {
+    font-family: monospace;
+    font-size: 32px;
+    font-weight: 600;
+    fill: #1F2328;
+}
+
+@media (prefers-color-scheme: dark) {
+    text {
+        fill: #D1D7E0;
+    }
+}
+</style>
+
+<text x="10" y="38">H</text>
+
+</svg>
