@@ -5,13 +5,13 @@
   </h3>
 
   <p>
-    <samp>
-      <strong>Full-Stack Software Engineer</strong>, expert in:<br>
-      <strong>React.js</strong>,
-      <strong>Angular</strong>,
-      <strong>Node.js</strong>,
-      <strong>Express.js</strong>, and the
-      <strong>JavaScript/TypeScript</strong> ecosystem.
+   <samp>
+      <strong>Full-Stack Software Engineer</strong>, expert in: <br>
+      <strong><a href="https://react.dev">React.js</a></strong>,
+      <strong><a href="https://angular.dev">Angular</a></strong>,
+      <strong><a href="https://nodejs.org">Node.js</a></strong>,
+      <strong><a href="https://expressjs.com">Express.js</a></strong>, and the
+      <strong><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript">JavaScript/TypeScript</a></strong> ecosystem.
     </samp>
   </p>
 
