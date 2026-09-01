@@ -15,9 +15,7 @@
     </samp>
   </p>
 
-  <h4>
-    <samp>@nitesh404</samp>
-  </h4>
+<br>
 
   <!-- Social Icons -->
 <div align="center">
