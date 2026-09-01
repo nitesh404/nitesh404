@@ -1,48 +1,72 @@
 import html
 
-TEXT = "Hi there! I'm Nitesh Kumar 👋|<<< Kumar 👋|<<<Nitesh Kumar 👋|<<<Hi there! I'm Nitesh Kumar 👋"
+TEXT = "Hi there! I'm Nitesh Kumar 👋|<<<Nitesh Kumar 👋|I'm a Developer 👨‍💻|<<<Developer 👨‍💻|Hi there! I'm Nitesh Kumar 👋"
+
 FILENAME = "nitesh_typing.svg"
 
-FONT_SIZE = 32
-CHAR_WIDTH = 19
-TYPING_SPEED = 0.15
+FONT_FAMILY = "monospace"
+FONT_SIZE = 30
+FONT_WEIGHT = 600
+
+TYPING_SPEED = 0.12
+DELETE_SPEED = 0.08
 PAUSE = 1.5
+
 
 def escape(text):
     return html.escape(text)
 
+
 frames = []
 current = ""
-
 time = 0
 
 for char in TEXT:
+
+    # "|" = pause
     if char == "|":
         time += PAUSE
         continue
 
+    # "<" = delete previous character
     if char == "<":
         if current:
             current = current[:-1]
-            time += TYPING_SPEED
+
+        time += DELETE_SPEED
         continue
 
     current += char
-    frames.append((current, time))
+
+    frames.append({
+        "text": current,
+        "time": time
+    })
+
     time += TYPING_SPEED
 
-width = max(len(text) for text, _ in frames) * CHAR_WIDTH + 40
 
-svg = f'''<svg xmlns="http://www.w3.org/2000/svg"
-width="{width}"
-height="55"
-viewBox="0 0 {width} 55">
+# Calculate SVG width
+max_length = max(len(frame["text"]) for frame in frames)
+width = max_length * 18 + 80
+
+height = 60
+
+
+# Build animated SVG
+svg = f'''<?xml version="1.0" encoding="UTF-8"?>
+<svg
+    xmlns="http://www.w3.org/2000/svg"
+    width="{width}"
+    height="{height}"
+    viewBox="0 0 {width} {height}"
+>
 
 <style>
 text {{
-    font-family: monospace;
+    font-family: {FONT_FAMILY};
     font-size: {FONT_SIZE}px;
-    font-weight: 600;
+    font-weight: {FONT_WEIGHT};
     fill: #1F2328;
 }}
 
@@ -53,12 +77,46 @@ text {{
 }}
 </style>
 
-<text x="10" y="38">{escape(frames[0][0])}</text>
+<text
+    x="10"
+    y="40"
+>
+'''
+
+# Add text frames
+for i, frame in enumerate(frames):
+
+    begin = frame["time"]
+
+    if i + 1 < len(frames):
+        end = frames[i + 1]["time"]
+        duration = end - begin
+    else:
+        duration = PAUSE
+
+    svg += f'''
+    <tspan
+        opacity="0"
+    >
+        {escape(frame["text"])}
+        <set
+            attributeName="opacity"
+            to="1"
+            begin="{begin}s"
+            dur="{duration}s"
+        />
+    </tspan>
+'''
+
+
+svg += '''
+</text>
 
 </svg>
 '''
 
-with open(FILENAME, "w", encoding="utf-8") as f:
-    f.write(svg)
+
+with open(FILENAME, "w", encoding="utf-8") as file:
+    file.write(svg)
 
 print(f"Generated {FILENAME}")
