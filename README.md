@@ -23,7 +23,7 @@
     <picture>
       <source media="(prefers-color-scheme: dark)" srcset="icons/linkedin-white.svg">
       <source media="(prefers-color-scheme: light)" srcset="icons/linkedin-black.svg">
-      <img src="icons/linkedin-black.svg" width="28" alt="LinkedIn">
+      <img src="icons/linkedin-black.svg" height="30" alt="LinkedIn">
     </picture>
   </a>
   &nbsp;&nbsp;&nbsp;
@@ -32,7 +32,7 @@
     <picture>
       <source media="(prefers-color-scheme: dark)" srcset="icons/github-white.svg">
       <source media="(prefers-color-scheme: light)" srcset="icons/github-black.svg">
-      <img src="icons/github-black.svg" width="28" alt="GitHub">
+      <img src="icons/github-black.svg" height="30" alt="GitHub">
     </picture>
   </a>
   &nbsp;&nbsp;&nbsp;
@@ -41,7 +41,7 @@
     <picture>
       <source media="(prefers-color-scheme: dark)" srcset="icons/email-white.svg">
       <source media="(prefers-color-scheme: light)" srcset="icons/email-black.svg">
-      <img src="icons/email-black.svg" width="28" alt="Email">
+      <img src="icons/email-black.svg" height="30" alt="Email">
     </picture>
   </a>
   &nbsp;&nbsp;&nbsp;
@@ -50,7 +50,7 @@
     <picture>
       <source media="(prefers-color-scheme: dark)" srcset="icons/telegram-white.svg">
       <source media="(prefers-color-scheme: light)" srcset="icons/telegram-black.svg">
-      <img src="icons/telegram-black.svg" width="28" alt="Telegram">
+      <img src="icons/telegram-black.svg" height="30" alt="Telegram">
     </picture>
   </a>
 </div>
