@@ -22,28 +22,41 @@
   <!-- Social Icons -->
 <div align="center">
   <a href="https://www.linkedin.com/in/niteshk15252/">
-    <img src="https://raw.githubusercontent.com/nitesh404/nitesh404/main/icons/linkedin-black.svg#gh-light-mode-only"  width="28" alt="LinkedIn">
-    <img src="https://raw.githubusercontent.com/nitesh404/nitesh404/main/icons/linkedin-white.svg#gh-dark-mode-only"  width="28" alt="LinkedIn">
+    <picture>
+      <source media="(prefers-color-scheme: dark)" srcset="icons/linkedin-white.svg">
+      <source media="(prefers-color-scheme: light)" srcset="icons/linkedin-black.svg">
+      <img src="icons/linkedin-black.svg" alt="LinkedIn">
+    </picture>
   </a>
   &nbsp;&nbsp;&nbsp;
 
   <a href="https://github.com/nitesh404">
-    <img src="https://raw.githubusercontent.com/nitesh404/nitesh404/main/icons/github-black.svg#gh-light-mode-only" width="28" alt="GitHub">
-    <img src="https://raw.githubusercontent.com/nitesh404/nitesh404/main/icons/github-white.svg#gh-dark-mode-only" width="28" alt="GitHub">
+    <picture>
+      <source media="(prefers-color-scheme: dark)" srcset="icons/github-white.svg">
+      <source media="(prefers-color-scheme: light)" srcset="icons/github-black.svg">
+      <img src="icons/github-black.svg" width="28" alt="GitHub">
+    </picture>
   </a>
   &nbsp;&nbsp;&nbsp;
 
   <a href="mailto:niteshe404@gmail.com">
-    <img src="https://raw.githubusercontent.com/nitesh404/nitesh404/main/icons/email-black.svg#gh-light-mode-only" width="28" alt="Email">
-    <img src="https://raw.githubusercontent.com/nitesh404/nitesh404/main/icons/email-white.svg#gh-dark-mode-only" width="28" alt="Email">
+    <picture>
+      <source media="(prefers-color-scheme: dark)" srcset="icons/email-white.svg">
+      <source media="(prefers-color-scheme: light)" srcset="icons/email-black.svg">
+      <img src="icons/email-black.svg" width="28" alt="Email">
+    </picture>
   </a>
   &nbsp;&nbsp;&nbsp;
 
   <a href="https://t.me/krpp404">
-    <img src="https://raw.githubusercontent.com/nitesh404/nitesh404/main/icons/telegram-black.svg#gh-light-mode-only" width="28" alt="Telegram">
-    <img src="https://raw.githubusercontent.com/nitesh404/nitesh404/main/icons/telegram-white.svg#gh-dark-mode-only" width="28" alt="Telegram">
+    <picture>
+      <source media="(prefers-color-scheme: dark)" srcset="icons/telegram-white.svg">
+      <source media="(prefers-color-scheme: light)" srcset="icons/telegram-black.svg">
+      <img src="icons/telegram-black.svg" width="28" alt="Telegram">
+    </picture>
   </a>
 </div>
+
   <br>
 
   <!-- Tech Stack -->
