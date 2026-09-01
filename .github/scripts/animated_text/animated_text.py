@@ -1,4 +1,4 @@
-TEXT = "Hi there! I'm Nitesh 👋|<<<<<<< a Developer 👨‍💻"
+TEXT = "Hi there! I'm Nitesh 👋|<<<<<<<< a Developer 👨‍💻"
 FILENAME = "nitesh_typing.svg"
 
 def build_svg_animation(text: str) -> str:
