@@ -1,141 +1,187 @@
 FILENAME = "nitesh_typing.svg"
 
-TEXTS = [
+PHRASES = [
     "Hi there! I'm Nitesh Kumar 👋",
     "I'm a Developer 👨‍💻",
 ]
 
+WIDTH = 500
+HEIGHT = 45
+FONT_SIZE = 20
 
-def build_svg_animation(texts):
+TYPE_SPEED = 0.15
+DELETE_SPEED = 0.10
+PAUSE = 1.5
 
-    width = 500
-    height = 40
-    font_size = 20
 
-    lines = []
-    visible = ""
-    time = 0
+def build_svg_animation(phrases):
 
-    for phrase in texts:
+    frames = []
 
-        # Type the phrase
+    current = ""
+    time = 0.0
+
+    # Create typing + deleting frames
+    for phrase in phrases:
+
+        # -------------------------
+        # TYPE
+        # -------------------------
         for char in phrase:
 
-            visible += char
+            current += char
 
-            lines.append(
-                f"""
-                <text
-                    x="10"
-                    y="{font_size}"
-                    text-anchor="start"
-                    opacity="0"
-                >
-                    <set
-                        attributeName="opacity"
-                        to="1"
-                        begin="{time:.3f}s"
-                        dur="0.15s"
-                        fill="remove"
-                    />
-                    {visible}
-                </text>
-                """
-            )
+            frames.append({
+                "text": current,
+                "start": time,
+            })
 
-            time += 0.15
+            time += TYPE_SPEED
 
-        # Keep the phrase visible
-        time += 2.0
+        # -------------------------
+        # PAUSE
+        # -------------------------
+        time += PAUSE
 
-        # Backspace the ENTIRE phrase
+        # -------------------------
+        # DELETE
+        # -------------------------
         for _ in phrase:
 
-            visible = visible[:-1]
+            current = current[:-1]
 
-            lines.append(
-                f"""
-                <text
-                    x="10"
-                    y="{font_size}"
-                    text-anchor="start"
-                    opacity="0"
-                >
-                    <set
-                        attributeName="opacity"
-                        to="1"
-                        begin="{time:.3f}s"
-                        dur="0.08s"
-                        fill="remove"
-                    />
-                    {visible}
-                </text>
-                """
-            )
+            frames.append({
+                "text": current,
+                "start": time,
+            })
 
-            time += 0.08
+            time += DELETE_SPEED
 
         # Small pause before next phrase
         time += 0.5
 
+    total_time = time
 
-    svg = f"""<?xml version="1.0" encoding="UTF-8"?>
+    # -------------------------
+    # SVG
+    # -------------------------
+
+    svg = f'''<?xml version="1.0" encoding="UTF-8"?>
 
 <svg
-    width="{width}"
-    height="{height}"
-    viewBox="0 0 {width} {height}"
     xmlns="http://www.w3.org/2000/svg"
+    width="{WIDTH}"
+    height="{HEIGHT}"
+    viewBox="0 0 {WIDTH} {HEIGHT}"
 >
 
 <style>
 
-text {{
-    font-family: Arial, sans-serif;
-    font-size: {font_size}px;
-    font-weight: bold;
-    fill: #1F2328;
-}}
-
-@media (prefers-color-scheme: dark) {{
-    text {{
-        fill: #D1D7E0;
+    .typing {{
+        font-family: Arial, sans-serif;
+        font-size: {FONT_SIZE}px;
+        font-weight: bold;
+        fill: #1F2328;
     }}
-}}
+
+    @media (prefers-color-scheme: dark) {{
+        .typing {{
+            fill: #D1D7E0;
+        }}
+    }}
 
 </style>
 
-<clipPath id="box">
+<clipPath id="clip">
     <rect
         x="0"
         y="0"
-        width="{width}"
-        height="{height}"
+        width="{WIDTH}"
+        height="{HEIGHT}"
     />
 </clipPath>
 
-<g clip-path="url(#box)">
+<g clip-path="url(#clip)">
+'''
 
-{''.join(lines)}
+    # -------------------------
+    # Create frames
+    # -------------------------
 
+    for i, frame in enumerate(frames):
+
+        start = frame["start"]
+
+        if i + 1 < len(frames):
+            end = frames[i + 1]["start"]
+        else:
+            end = total_time
+
+        duration = end - start
+
+        text = frame["text"]
+
+        # Every frame explicitly appears
+        # and then disappears.
+        svg += f'''
+    <text
+        class="typing"
+        x="5"
+        y="30"
+        opacity="0"
+    >
+        {text}
+
+        <set
+            attributeName="opacity"
+            to="1"
+            begin="{start:.3f}s"
+        />
+
+        <set
+            attributeName="opacity"
+            to="0"
+            begin="{end:.3f}s"
+        />
+
+    </text>
+'''
+
+    svg += f'''
 </g>
 
+<!-- Restart the entire animation -->
+<rect
+    x="0"
+    y="0"
+    width="1"
+    height="1"
+    opacity="0"
+>
+    <animate
+        attributeName="opacity"
+        values="0;0"
+        dur="{total_time:.3f}s"
+        repeatCount="indefinite"
+    />
+</rect>
+
 </svg>
-"""
+'''
 
     return svg
 
 
 def save_svg(filename, content):
 
-    with open(filename, "w", encoding="utf-8") as f:
-        f.write(content)
+    with open(filename, "w", encoding="utf-8") as file:
+        file.write(content)
 
     print(f"Saved SVG to {filename}")
 
 
 if __name__ == "__main__":
 
-    svg = build_svg_animation(TEXTS)
+    svg = build_svg_animation(PHRASES)
 
     save_svg(FILENAME, svg)
