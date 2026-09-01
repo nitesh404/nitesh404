@@ -1,157 +1,145 @@
-import html
-
+TEXT = "Hi there! I'm Nitesh Kumar 👋|<<<Nitesh Kumar 👋|<<<I'm a Developer 👨‍💻|<<<Developer 👨‍💻|<<<I'm a Developer 👨‍💻"
 FILENAME = "nitesh_typing.svg"
 
-TEXTS = [
-    "Hi there! I'm Nitesh Kumar 👋",
-    "I'm a Developer 👨‍💻",
-]
 
-FONT_SIZE = 30
-FONT_FAMILY = "Arial, sans-serif"
+def build_svg_animation(text: str) -> str:
+    width = 330
+    height = 40
+    font_size = 20
 
-TYPE_SPEED = 0.08
-DELETE_SPEED = 0.05
-PAUSE = 1.5
+    lines = []
+    visible = ""
+    time = 0
 
-# Fixed canvas
-WIDTH = 700
-HEIGHT = 70
+    for idx, char in enumerate(text):
 
+        # Pause
+        if char == "|":
+            continue
 
-def escape(text):
-    return html.escape(text)
+        # Backspace
+        if char == "<":
+            visible = visible[:-1]
 
+        # Normal typing
+        else:
+            visible += char
 
-# Create typing/deleting frames
-frames = []
-time = 0
+        # Last frame
+        is_last_step = (idx == len(text) - 1)
 
-current = ""
+        fill_type = "freeze" if is_last_step else "remove"
 
-for text_index, target in enumerate(TEXTS):
+        # Pause after "|"
+        is_pause = (
+            text[idx + 1] == "|"
+            if not is_last_step
+            else False
+        )
 
-    # Type text
-    for char in target:
-        current += char
+        delay = 1.0 if is_pause else 0.15
 
-        frames.append({
-            "text": current,
-            "time": time
-        })
+        lines.append(
+            f"""
+        <text
+            x="0"
+            y="{font_size}"
+            text-anchor="start"
+            opacity="0"
+        >
+            <set
+                attributeName="opacity"
+                to="1"
+                begin="{round(time, 3)}s"
+                dur="{delay}s"
+                fill="{fill_type}"
+            />
+            {visible}
+        </text>
+        """
+        )
 
-        time += TYPE_SPEED
+        time += delay
 
-    # Hold the complete sentence
-    time += PAUSE
+    # Emoji position
+    emoji_x = len(visible) * font_size * 0.48
 
-    # Delete text
-    for _ in target:
-        current = current[:-1]
+    pivot_x = emoji_x + 10
+    pivot_y = font_size
 
-        frames.append({
-            "text": current,
-            "time": time
-        })
-
-        time += DELETE_SPEED
-
-    # Small pause before next sentence
-    time += 0.5
-
-
-# Total animation duration
-total_duration = time
-
-
-svg = f'''<?xml version="1.0" encoding="UTF-8"?>
-
+    svg = f"""
 <svg
+    width="{width}"
+    height="{height}"
     xmlns="http://www.w3.org/2000/svg"
-    width="{WIDTH}"
-    height="{HEIGHT}"
-    viewBox="0 0 {WIDTH} {HEIGHT}"
 >
 
 <style>
 
-.text {{
-    font-family: {FONT_FAMILY};
-    font-size: {FONT_SIZE}px;
-    font-weight: 600;
+text {{
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+    font-size: {font_size}px;
     fill: #1F2328;
+    opacity: 0;
 }}
 
 @media (prefers-color-scheme: dark) {{
-    .text {{
+    text {{
         fill: #D1D7E0;
     }}
 }}
 
 </style>
 
-<rect
-    width="100%"
-    height="100%"
-    fill="transparent"
-/>
+<!-- Typing animation -->
+
+{''.join(lines)}
+
+<!-- Waving hand -->
 
 <text
-    class="text"
-    x="{WIDTH / 2}"
-    y="45"
-    text-anchor="middle"
->
-
-'''
-
-
-# Create animation using opacity
-for i, frame in enumerate(frames):
-
-    start = frame["time"]
-
-    if i + 1 < len(frames):
-        end = frames[i + 1]["time"]
-    else:
-        end = total_duration
-
-    duration = max(end - start, 0.01)
-
-    svg += f'''
-<tspan
-    x="{WIDTH / 2}"
+    x="{emoji_x}"
+    y="{font_size}"
+    text-anchor="start"
     opacity="0"
 >
-    {escape(frame["text"])}
 
     <set
         attributeName="opacity"
         to="1"
-        begin="{start:.3f}s"
-        dur="{duration:.3f}s"
+        begin="{round(time + 2 * delay, 3)}s"
+        dur="0.001s"
+        fill="freeze"
     />
 
-</tspan>
-'''
+    👋
 
-
-svg += f'''
-
-<animate
-    attributeName="opacity"
-    values="1;1"
-    dur="{total_duration:.3f}s"
-    repeatCount="indefinite"
-/>
+    <animateTransform
+        attributeName="transform"
+        type="rotate"
+        values="-20 {pivot_x} {pivot_y};
+                20 {pivot_x} {pivot_y};
+                -20 {pivot_x} {pivot_y}"
+        dur="0.5s"
+        repeatCount="indefinite"
+    />
 
 </text>
 
 </svg>
-'''
+"""
+
+    return svg
 
 
-with open(FILENAME, "w", encoding="utf-8") as file:
-    file.write(svg)
+def save_svg(filename: str, content: str):
+    with open(filename, "w", encoding="utf-8") as f:
+        f.write(content)
 
-print(f"Generated {FILENAME}")
+    print(f"Saved SVG to {filename}")
+
+
+if __name__ == "__main__":
+    svg_content = build_svg_animation(TEXT)
+    save_svg(FILENAME, svg_content)
