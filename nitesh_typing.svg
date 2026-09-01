@@ -165,92 +165,97 @@
         
         <text x="0" y="20" text-anchor="start" opacity="0">
             <set attributeName="opacity" to="1" begin="5.2s" dur="0.15" fill="remove" />
-            Hi there! I'm N 
+            Hi there! I'm 
         </text>
         
         <text x="0" y="20" text-anchor="start" opacity="0">
             <set attributeName="opacity" to="1" begin="5.35s" dur="0.15" fill="remove" />
-            Hi there! I'm N a
+            Hi there! I'm  
         </text>
         
         <text x="0" y="20" text-anchor="start" opacity="0">
             <set attributeName="opacity" to="1" begin="5.5s" dur="0.15" fill="remove" />
-            Hi there! I'm N a 
+            Hi there! I'm  a
         </text>
         
         <text x="0" y="20" text-anchor="start" opacity="0">
             <set attributeName="opacity" to="1" begin="5.65s" dur="0.15" fill="remove" />
-            Hi there! I'm N a D
+            Hi there! I'm  a 
         </text>
         
         <text x="0" y="20" text-anchor="start" opacity="0">
             <set attributeName="opacity" to="1" begin="5.8s" dur="0.15" fill="remove" />
-            Hi there! I'm N a De
+            Hi there! I'm  a D
         </text>
         
         <text x="0" y="20" text-anchor="start" opacity="0">
             <set attributeName="opacity" to="1" begin="5.95s" dur="0.15" fill="remove" />
-            Hi there! I'm N a Dev
+            Hi there! I'm  a De
         </text>
         
         <text x="0" y="20" text-anchor="start" opacity="0">
             <set attributeName="opacity" to="1" begin="6.1s" dur="0.15" fill="remove" />
-            Hi there! I'm N a Deve
+            Hi there! I'm  a Dev
         </text>
         
         <text x="0" y="20" text-anchor="start" opacity="0">
             <set attributeName="opacity" to="1" begin="6.25s" dur="0.15" fill="remove" />
-            Hi there! I'm N a Devel
+            Hi there! I'm  a Deve
         </text>
         
         <text x="0" y="20" text-anchor="start" opacity="0">
             <set attributeName="opacity" to="1" begin="6.4s" dur="0.15" fill="remove" />
-            Hi there! I'm N a Develo
+            Hi there! I'm  a Devel
         </text>
         
         <text x="0" y="20" text-anchor="start" opacity="0">
             <set attributeName="opacity" to="1" begin="6.55s" dur="0.15" fill="remove" />
-            Hi there! I'm N a Develop
+            Hi there! I'm  a Develo
         </text>
         
         <text x="0" y="20" text-anchor="start" opacity="0">
             <set attributeName="opacity" to="1" begin="6.7s" dur="0.15" fill="remove" />
-            Hi there! I'm N a Develope
+            Hi there! I'm  a Develop
         </text>
         
         <text x="0" y="20" text-anchor="start" opacity="0">
             <set attributeName="opacity" to="1" begin="6.85s" dur="0.15" fill="remove" />
-            Hi there! I'm N a Developer
+            Hi there! I'm  a Develope
         </text>
         
         <text x="0" y="20" text-anchor="start" opacity="0">
             <set attributeName="opacity" to="1" begin="7.0s" dur="0.15" fill="remove" />
-            Hi there! I'm N a Developer 
+            Hi there! I'm  a Developer
         </text>
         
         <text x="0" y="20" text-anchor="start" opacity="0">
             <set attributeName="opacity" to="1" begin="7.15s" dur="0.15" fill="remove" />
-            Hi there! I'm N a Developer 👨
+            Hi there! I'm  a Developer 
         </text>
         
         <text x="0" y="20" text-anchor="start" opacity="0">
             <set attributeName="opacity" to="1" begin="7.3s" dur="0.15" fill="remove" />
-            Hi there! I'm N a Developer 👨‍
+            Hi there! I'm  a Developer 👨
         </text>
         
         <text x="0" y="20" text-anchor="start" opacity="0">
-            <set attributeName="opacity" to="1" begin="7.45s" dur="0.15" fill="freeze" />
-            Hi there! I'm N a Developer 👨‍💻
+            <set attributeName="opacity" to="1" begin="7.45s" dur="0.15" fill="remove" />
+            Hi there! I'm  a Developer 👨‍
+        </text>
+        
+        <text x="0" y="20" text-anchor="start" opacity="0">
+            <set attributeName="opacity" to="1" begin="7.6s" dur="0.15" fill="freeze" />
+            Hi there! I'm  a Developer 👨‍💻
         </text>
         
 
         <!-- Animated emoji -->
-        <text x="297.59999999999997" y="20" text-anchor="start" opacity="0">
-            <set attributeName="opacity" to="1" begin="7.9s" dur="0.001s" fill="freeze" />
+        <text x="288.0" y="20" text-anchor="start" opacity="0">
+            <set attributeName="opacity" to="1" begin="8.05s" dur="0.001s" fill="freeze" />
             👋
             <animateTransform attributeName="transform"
                 type="rotate"
-                values="-20 319.59999999999997 20; 20 319.59999999999997 20; -20 319.59999999999997 20"
+                values="-20 310.0 20; 20 310.0 20; -20 310.0 20"
                 dur="0.5s"
                 repeatCount="indefinite" />
         </text>
