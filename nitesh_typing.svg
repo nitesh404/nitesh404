@@ -1,844 +1,263 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg
-    width="500"
-    height="35"
-    viewBox="0 0 500 35"
-    xmlns="http://www.w3.org/2000/svg">
 
-    <style>
-        text {
-            font-family: Arial, sans-serif;
-            font-weight: bold;
-            font-size: 20px;
-            fill: #1F2328;
-        }
-
-        @media (prefers-color-scheme: dark) {
+    <svg width="260" height="30" xmlns="http://www.w3.org/2000/svg">
+        <!-- Made as a joke by brenocq, people get my name wrong all the same at Starbucks -->
+        <style>
             text {
-                fill: #D1D7E0;
+                font-family: Arial, sans-serif;
+                font-weight: bold;
+                font-size: 20px;
+                fill: #1F2328;
+                opacity: 0;
             }
-        }
-    </style>
+            @media (prefers-color-scheme: dark) {
+                text {
+                    fill: #D1D7E0;
+                }
+            }
+        </style>
 
-    <!-- Typing animation -->
-    
-        <text
-            x="0"
-            y="20"
-            opacity="0">
-
+        <!-- Typing text -->
+        
+        <text x="0" y="20" text-anchor="start" opacity="0">
+            <set attributeName="opacity" to="1" begin="0s" dur="0.15" fill="remove" />
             H
-
-            <animate
-                attributeName="opacity"
-                values="0;1;1;0"
-                keyTimes="0;0.000000;0.000103;0.015385"
-                dur="9.750s"
-                repeatCount="indefinite"
-            />
-
         </text>
         
-        <text
-            x="0"
-            y="20"
-            opacity="0">
-
+        <text x="0" y="20" text-anchor="start" opacity="0">
+            <set attributeName="opacity" to="1" begin="0.15s" dur="0.15" fill="remove" />
             Hi
-
-            <animate
-                attributeName="opacity"
-                values="0;1;1;0"
-                keyTimes="0;0.015385;0.015487;0.030769"
-                dur="9.750s"
-                repeatCount="indefinite"
-            />
-
         </text>
         
-        <text
-            x="0"
-            y="20"
-            opacity="0">
-
+        <text x="0" y="20" text-anchor="start" opacity="0">
+            <set attributeName="opacity" to="1" begin="0.3s" dur="0.15" fill="remove" />
             Hi 
-
-            <animate
-                attributeName="opacity"
-                values="0;1;1;0"
-                keyTimes="0;0.030769;0.030872;0.046154"
-                dur="9.750s"
-                repeatCount="indefinite"
-            />
-
         </text>
         
-        <text
-            x="0"
-            y="20"
-            opacity="0">
-
+        <text x="0" y="20" text-anchor="start" opacity="0">
+            <set attributeName="opacity" to="1" begin="0.45s" dur="0.15" fill="remove" />
             Hi t
-
-            <animate
-                attributeName="opacity"
-                values="0;1;1;0"
-                keyTimes="0;0.046154;0.046256;0.061538"
-                dur="9.750s"
-                repeatCount="indefinite"
-            />
-
         </text>
         
-        <text
-            x="0"
-            y="20"
-            opacity="0">
-
+        <text x="0" y="20" text-anchor="start" opacity="0">
+            <set attributeName="opacity" to="1" begin="0.6s" dur="0.15" fill="remove" />
             Hi th
-
-            <animate
-                attributeName="opacity"
-                values="0;1;1;0"
-                keyTimes="0;0.061538;0.061641;0.076923"
-                dur="9.750s"
-                repeatCount="indefinite"
-            />
-
         </text>
         
-        <text
-            x="0"
-            y="20"
-            opacity="0">
-
+        <text x="0" y="20" text-anchor="start" opacity="0">
+            <set attributeName="opacity" to="1" begin="0.75s" dur="0.15" fill="remove" />
             Hi the
-
-            <animate
-                attributeName="opacity"
-                values="0;1;1;0"
-                keyTimes="0;0.076923;0.077026;0.092308"
-                dur="9.750s"
-                repeatCount="indefinite"
-            />
-
         </text>
         
-        <text
-            x="0"
-            y="20"
-            opacity="0">
-
+        <text x="0" y="20" text-anchor="start" opacity="0">
+            <set attributeName="opacity" to="1" begin="0.9s" dur="0.15" fill="remove" />
             Hi ther
-
-            <animate
-                attributeName="opacity"
-                values="0;1;1;0"
-                keyTimes="0;0.092308;0.092410;0.107692"
-                dur="9.750s"
-                repeatCount="indefinite"
-            />
-
         </text>
         
-        <text
-            x="0"
-            y="20"
-            opacity="0">
-
+        <text x="0" y="20" text-anchor="start" opacity="0">
+            <set attributeName="opacity" to="1" begin="1.05s" dur="0.15" fill="remove" />
             Hi there
-
-            <animate
-                attributeName="opacity"
-                values="0;1;1;0"
-                keyTimes="0;0.107692;0.107795;0.123077"
-                dur="9.750s"
-                repeatCount="indefinite"
-            />
-
         </text>
         
-        <text
-            x="0"
-            y="20"
-            opacity="0">
-
+        <text x="0" y="20" text-anchor="start" opacity="0">
+            <set attributeName="opacity" to="1" begin="1.2s" dur="0.15" fill="remove" />
             Hi there!
-
-            <animate
-                attributeName="opacity"
-                values="0;1;1;0"
-                keyTimes="0;0.123077;0.123179;0.138462"
-                dur="9.750s"
-                repeatCount="indefinite"
-            />
-
         </text>
         
-        <text
-            x="0"
-            y="20"
-            opacity="0">
-
+        <text x="0" y="20" text-anchor="start" opacity="0">
+            <set attributeName="opacity" to="1" begin="1.35s" dur="0.15" fill="remove" />
             Hi there! 
-
-            <animate
-                attributeName="opacity"
-                values="0;1;1;0"
-                keyTimes="0;0.138462;0.138564;0.153846"
-                dur="9.750s"
-                repeatCount="indefinite"
-            />
-
         </text>
         
-        <text
-            x="0"
-            y="20"
-            opacity="0">
-
+        <text x="0" y="20" text-anchor="start" opacity="0">
+            <set attributeName="opacity" to="1" begin="1.5s" dur="0.15" fill="remove" />
             Hi there! I
-
-            <animate
-                attributeName="opacity"
-                values="0;1;1;0"
-                keyTimes="0;0.153846;0.153949;0.169231"
-                dur="9.750s"
-                repeatCount="indefinite"
-            />
-
         </text>
         
-        <text
-            x="0"
-            y="20"
-            opacity="0">
-
-            Hi there! I&#x27;
-
-            <animate
-                attributeName="opacity"
-                values="0;1;1;0"
-                keyTimes="0;0.169231;0.169333;0.184615"
-                dur="9.750s"
-                repeatCount="indefinite"
-            />
-
+        <text x="0" y="20" text-anchor="start" opacity="0">
+            <set attributeName="opacity" to="1" begin="1.65s" dur="0.15" fill="remove" />
+            Hi there! I'
         </text>
         
-        <text
-            x="0"
-            y="20"
-            opacity="0">
-
-            Hi there! I&#x27;m
-
-            <animate
-                attributeName="opacity"
-                values="0;1;1;0"
-                keyTimes="0;0.184615;0.184718;0.200000"
-                dur="9.750s"
-                repeatCount="indefinite"
-            />
-
+        <text x="0" y="20" text-anchor="start" opacity="0">
+            <set attributeName="opacity" to="1" begin="1.8s" dur="0.15" fill="remove" />
+            Hi there! I'm
         </text>
         
-        <text
-            x="0"
-            y="20"
-            opacity="0">
-
-            Hi there! I&#x27;m 
-
-            <animate
-                attributeName="opacity"
-                values="0;1;1;0"
-                keyTimes="0;0.200000;0.200103;0.215385"
-                dur="9.750s"
-                repeatCount="indefinite"
-            />
-
+        <text x="0" y="20" text-anchor="start" opacity="0">
+            <set attributeName="opacity" to="1" begin="1.95s" dur="0.15" fill="remove" />
+            Hi there! I'm 
         </text>
         
-        <text
-            x="0"
-            y="20"
-            opacity="0">
-
-            Hi there! I&#x27;m N
-
-            <animate
-                attributeName="opacity"
-                values="0;1;1;0"
-                keyTimes="0;0.215385;0.215487;0.230769"
-                dur="9.750s"
-                repeatCount="indefinite"
-            />
-
+        <text x="0" y="20" text-anchor="start" opacity="0">
+            <set attributeName="opacity" to="1" begin="2.1s" dur="0.15" fill="remove" />
+            Hi there! I'm N
         </text>
         
-        <text
-            x="0"
-            y="20"
-            opacity="0">
-
-            Hi there! I&#x27;m Ni
-
-            <animate
-                attributeName="opacity"
-                values="0;1;1;0"
-                keyTimes="0;0.230769;0.230872;0.246154"
-                dur="9.750s"
-                repeatCount="indefinite"
-            />
-
+        <text x="0" y="20" text-anchor="start" opacity="0">
+            <set attributeName="opacity" to="1" begin="2.25s" dur="0.15" fill="remove" />
+            Hi there! I'm Ni
         </text>
         
-        <text
-            x="0"
-            y="20"
-            opacity="0">
-
-            Hi there! I&#x27;m Nit
-
-            <animate
-                attributeName="opacity"
-                values="0;1;1;0"
-                keyTimes="0;0.246154;0.246256;0.261538"
-                dur="9.750s"
-                repeatCount="indefinite"
-            />
-
+        <text x="0" y="20" text-anchor="start" opacity="0">
+            <set attributeName="opacity" to="1" begin="2.4s" dur="0.15" fill="remove" />
+            Hi there! I'm Nit
         </text>
         
-        <text
-            x="0"
-            y="20"
-            opacity="0">
-
-            Hi there! I&#x27;m Nite
-
-            <animate
-                attributeName="opacity"
-                values="0;1;1;0"
-                keyTimes="0;0.261538;0.261641;0.276923"
-                dur="9.750s"
-                repeatCount="indefinite"
-            />
-
+        <text x="0" y="20" text-anchor="start" opacity="0">
+            <set attributeName="opacity" to="1" begin="2.55s" dur="0.15" fill="remove" />
+            Hi there! I'm Nite
         </text>
         
-        <text
-            x="0"
-            y="20"
-            opacity="0">
-
-            Hi there! I&#x27;m Nites
-
-            <animate
-                attributeName="opacity"
-                values="0;1;1;0"
-                keyTimes="0;0.276923;0.277026;0.292308"
-                dur="9.750s"
-                repeatCount="indefinite"
-            />
-
+        <text x="0" y="20" text-anchor="start" opacity="0">
+            <set attributeName="opacity" to="1" begin="2.7s" dur="0.15" fill="remove" />
+            Hi there! I'm Nites
         </text>
         
-        <text
-            x="0"
-            y="20"
-            opacity="0">
-
-            Hi there! I&#x27;m Nitesh
-
-            <animate
-                attributeName="opacity"
-                values="0;1;1;0"
-                keyTimes="0;0.292308;0.292410;0.307692"
-                dur="9.750s"
-                repeatCount="indefinite"
-            />
-
+        <text x="0" y="20" text-anchor="start" opacity="0">
+            <set attributeName="opacity" to="1" begin="2.85s" dur="0.15" fill="remove" />
+            Hi there! I'm Nitesh
         </text>
         
-        <text
-            x="0"
-            y="20"
-            opacity="0">
-
-            Hi there! I&#x27;m Nitesh 
-
-            <animate
-                attributeName="opacity"
-                values="0;1;1;0"
-                keyTimes="0;0.307692;0.307795;0.323077"
-                dur="9.750s"
-                repeatCount="indefinite"
-            />
-
+        <text x="0" y="20" text-anchor="start" opacity="0">
+            <set attributeName="opacity" to="1" begin="3.0s" dur="0.15" fill="remove" />
+            Hi there! I'm Nitesh 
         </text>
         
-        <text
-            x="0"
-            y="20"
-            opacity="0">
-
-            Hi there! I&#x27;m Nitesh 👋
-
-            <animate
-                attributeName="opacity"
-                values="0;1;1;0"
-                keyTimes="0;0.323077;0.323179;0.425641"
-                dur="9.750s"
-                repeatCount="indefinite"
-            />
-
+        <text x="0" y="20" text-anchor="start" opacity="0">
+            <set attributeName="opacity" to="1" begin="3.15s" dur="1.0" fill="remove" />
+            Hi there! I'm Nitesh 👋
         </text>
         
-        <text
-            x="0"
-            y="20"
-            opacity="0">
-
-            Hi there! I&#x27;m Nitesh 
-
-            <animate
-                attributeName="opacity"
-                values="0;1;1;0"
-                keyTimes="0;0.425641;0.425744;0.441026"
-                dur="9.750s"
-                repeatCount="indefinite"
-            />
-
+        <text x="0" y="20" text-anchor="start" opacity="0">
+            <set attributeName="opacity" to="1" begin="4.15s" dur="0.15" fill="remove" />
+            Hi there! I'm Nitesh 
         </text>
         
-        <text
-            x="0"
-            y="20"
-            opacity="0">
-
-            Hi there! I&#x27;m Nitesh
-
-            <animate
-                attributeName="opacity"
-                values="0;1;1;0"
-                keyTimes="0;0.441026;0.441128;0.456410"
-                dur="9.750s"
-                repeatCount="indefinite"
-            />
-
+        <text x="0" y="20" text-anchor="start" opacity="0">
+            <set attributeName="opacity" to="1" begin="4.3s" dur="0.15" fill="remove" />
+            Hi there! I'm Nitesh
         </text>
         
-        <text
-            x="0"
-            y="20"
-            opacity="0">
-
-            Hi there! I&#x27;m Nites
-
-            <animate
-                attributeName="opacity"
-                values="0;1;1;0"
-                keyTimes="0;0.456410;0.456513;0.471795"
-                dur="9.750s"
-                repeatCount="indefinite"
-            />
-
+        <text x="0" y="20" text-anchor="start" opacity="0">
+            <set attributeName="opacity" to="1" begin="4.45s" dur="0.15" fill="remove" />
+            Hi there! I'm Nites
         </text>
         
-        <text
-            x="0"
-            y="20"
-            opacity="0">
-
-            Hi there! I&#x27;m Nite
-
-            <animate
-                attributeName="opacity"
-                values="0;1;1;0"
-                keyTimes="0;0.471795;0.471897;0.487179"
-                dur="9.750s"
-                repeatCount="indefinite"
-            />
-
+        <text x="0" y="20" text-anchor="start" opacity="0">
+            <set attributeName="opacity" to="1" begin="4.6s" dur="0.15" fill="remove" />
+            Hi there! I'm Nite
         </text>
         
-        <text
-            x="0"
-            y="20"
-            opacity="0">
-
-            Hi there! I&#x27;m Nit
-
-            <animate
-                attributeName="opacity"
-                values="0;1;1;0"
-                keyTimes="0;0.487179;0.487282;0.502564"
-                dur="9.750s"
-                repeatCount="indefinite"
-            />
-
+        <text x="0" y="20" text-anchor="start" opacity="0">
+            <set attributeName="opacity" to="1" begin="4.75s" dur="0.15" fill="remove" />
+            Hi there! I'm Nit
         </text>
         
-        <text
-            x="0"
-            y="20"
-            opacity="0">
-
-            Hi there! I&#x27;m Ni
-
-            <animate
-                attributeName="opacity"
-                values="0;1;1;0"
-                keyTimes="0;0.502564;0.502667;0.517949"
-                dur="9.750s"
-                repeatCount="indefinite"
-            />
-
+        <text x="0" y="20" text-anchor="start" opacity="0">
+            <set attributeName="opacity" to="1" begin="4.9s" dur="0.15" fill="remove" />
+            Hi there! I'm Ni
         </text>
         
-        <text
-            x="0"
-            y="20"
-            opacity="0">
-
-            Hi there! I&#x27;m N
-
-            <animate
-                attributeName="opacity"
-                values="0;1;1;0"
-                keyTimes="0;0.517949;0.518051;0.533333"
-                dur="9.750s"
-                repeatCount="indefinite"
-            />
-
+        <text x="0" y="20" text-anchor="start" opacity="0">
+            <set attributeName="opacity" to="1" begin="5.05s" dur="0.15" fill="remove" />
+            Hi there! I'm N
         </text>
         
-        <text
-            x="0"
-            y="20"
-            opacity="0">
-
-            Hi there! I&#x27;m 
-
-            <animate
-                attributeName="opacity"
-                values="0;1;1;0"
-                keyTimes="0;0.533333;0.533436;0.548718"
-                dur="9.750s"
-                repeatCount="indefinite"
-            />
-
+        <text x="0" y="20" text-anchor="start" opacity="0">
+            <set attributeName="opacity" to="1" begin="5.2s" dur="0.15" fill="remove" />
+            Hi there! I'm 
         </text>
         
-        <text
-            x="0"
-            y="20"
-            opacity="0">
-
-            Hi there! I&#x27;m  
-
-            <animate
-                attributeName="opacity"
-                values="0;1;1;0"
-                keyTimes="0;0.548718;0.548821;0.564103"
-                dur="9.750s"
-                repeatCount="indefinite"
-            />
-
+        <text x="0" y="20" text-anchor="start" opacity="0">
+            <set attributeName="opacity" to="1" begin="5.35s" dur="0.15" fill="remove" />
+            Hi there! I'm  
         </text>
         
-        <text
-            x="0"
-            y="20"
-            opacity="0">
-
-            Hi there! I&#x27;m  a
-
-            <animate
-                attributeName="opacity"
-                values="0;1;1;0"
-                keyTimes="0;0.564103;0.564205;0.579487"
-                dur="9.750s"
-                repeatCount="indefinite"
-            />
-
+        <text x="0" y="20" text-anchor="start" opacity="0">
+            <set attributeName="opacity" to="1" begin="5.5s" dur="0.15" fill="remove" />
+            Hi there! I'm  a
         </text>
         
-        <text
-            x="0"
-            y="20"
-            opacity="0">
-
-            Hi there! I&#x27;m  a 
-
-            <animate
-                attributeName="opacity"
-                values="0;1;1;0"
-                keyTimes="0;0.579487;0.579590;0.594872"
-                dur="9.750s"
-                repeatCount="indefinite"
-            />
-
+        <text x="0" y="20" text-anchor="start" opacity="0">
+            <set attributeName="opacity" to="1" begin="5.65s" dur="0.15" fill="remove" />
+            Hi there! I'm  a 
         </text>
         
-        <text
-            x="0"
-            y="20"
-            opacity="0">
-
-            Hi there! I&#x27;m  a D
-
-            <animate
-                attributeName="opacity"
-                values="0;1;1;0"
-                keyTimes="0;0.594872;0.594974;0.610256"
-                dur="9.750s"
-                repeatCount="indefinite"
-            />
-
+        <text x="0" y="20" text-anchor="start" opacity="0">
+            <set attributeName="opacity" to="1" begin="5.8s" dur="0.15" fill="remove" />
+            Hi there! I'm  a D
         </text>
         
-        <text
-            x="0"
-            y="20"
-            opacity="0">
-
-            Hi there! I&#x27;m  a De
-
-            <animate
-                attributeName="opacity"
-                values="0;1;1;0"
-                keyTimes="0;0.610256;0.610359;0.625641"
-                dur="9.750s"
-                repeatCount="indefinite"
-            />
-
+        <text x="0" y="20" text-anchor="start" opacity="0">
+            <set attributeName="opacity" to="1" begin="5.95s" dur="0.15" fill="remove" />
+            Hi there! I'm  a De
         </text>
         
-        <text
-            x="0"
-            y="20"
-            opacity="0">
-
-            Hi there! I&#x27;m  a Dev
-
-            <animate
-                attributeName="opacity"
-                values="0;1;1;0"
-                keyTimes="0;0.625641;0.625744;0.641026"
-                dur="9.750s"
-                repeatCount="indefinite"
-            />
-
+        <text x="0" y="20" text-anchor="start" opacity="0">
+            <set attributeName="opacity" to="1" begin="6.1s" dur="0.15" fill="remove" />
+            Hi there! I'm  a Dev
         </text>
         
-        <text
-            x="0"
-            y="20"
-            opacity="0">
-
-            Hi there! I&#x27;m  a Deve
-
-            <animate
-                attributeName="opacity"
-                values="0;1;1;0"
-                keyTimes="0;0.641026;0.641128;0.656410"
-                dur="9.750s"
-                repeatCount="indefinite"
-            />
-
+        <text x="0" y="20" text-anchor="start" opacity="0">
+            <set attributeName="opacity" to="1" begin="6.25s" dur="0.15" fill="remove" />
+            Hi there! I'm  a Deve
         </text>
         
-        <text
-            x="0"
-            y="20"
-            opacity="0">
-
-            Hi there! I&#x27;m  a Devel
-
-            <animate
-                attributeName="opacity"
-                values="0;1;1;0"
-                keyTimes="0;0.656410;0.656513;0.671795"
-                dur="9.750s"
-                repeatCount="indefinite"
-            />
-
+        <text x="0" y="20" text-anchor="start" opacity="0">
+            <set attributeName="opacity" to="1" begin="6.4s" dur="0.15" fill="remove" />
+            Hi there! I'm  a Devel
         </text>
         
-        <text
-            x="0"
-            y="20"
-            opacity="0">
-
-            Hi there! I&#x27;m  a Develo
-
-            <animate
-                attributeName="opacity"
-                values="0;1;1;0"
-                keyTimes="0;0.671795;0.671897;0.687179"
-                dur="9.750s"
-                repeatCount="indefinite"
-            />
-
+        <text x="0" y="20" text-anchor="start" opacity="0">
+            <set attributeName="opacity" to="1" begin="6.55s" dur="0.15" fill="remove" />
+            Hi there! I'm  a Develo
         </text>
         
-        <text
-            x="0"
-            y="20"
-            opacity="0">
-
-            Hi there! I&#x27;m  a Develop
-
-            <animate
-                attributeName="opacity"
-                values="0;1;1;0"
-                keyTimes="0;0.687179;0.687282;0.702564"
-                dur="9.750s"
-                repeatCount="indefinite"
-            />
-
+        <text x="0" y="20" text-anchor="start" opacity="0">
+            <set attributeName="opacity" to="1" begin="6.7s" dur="0.15" fill="remove" />
+            Hi there! I'm  a Develop
         </text>
         
-        <text
-            x="0"
-            y="20"
-            opacity="0">
-
-            Hi there! I&#x27;m  a Develope
-
-            <animate
-                attributeName="opacity"
-                values="0;1;1;0"
-                keyTimes="0;0.702564;0.702667;0.717949"
-                dur="9.750s"
-                repeatCount="indefinite"
-            />
-
+        <text x="0" y="20" text-anchor="start" opacity="0">
+            <set attributeName="opacity" to="1" begin="6.85s" dur="0.15" fill="remove" />
+            Hi there! I'm  a Develope
         </text>
         
-        <text
-            x="0"
-            y="20"
-            opacity="0">
-
-            Hi there! I&#x27;m  a Developer
-
-            <animate
-                attributeName="opacity"
-                values="0;1;1;0"
-                keyTimes="0;0.717949;0.718051;0.733333"
-                dur="9.750s"
-                repeatCount="indefinite"
-            />
-
+        <text x="0" y="20" text-anchor="start" opacity="0">
+            <set attributeName="opacity" to="1" begin="7.0s" dur="0.15" fill="remove" />
+            Hi there! I'm  a Developer
         </text>
         
-        <text
-            x="0"
-            y="20"
-            opacity="0">
-
-            Hi there! I&#x27;m  a Developer 
-
-            <animate
-                attributeName="opacity"
-                values="0;1;1;0"
-                keyTimes="0;0.733333;0.733436;0.748718"
-                dur="9.750s"
-                repeatCount="indefinite"
-            />
-
+        <text x="0" y="20" text-anchor="start" opacity="0">
+            <set attributeName="opacity" to="1" begin="7.15s" dur="0.15" fill="remove" />
+            Hi there! I'm  a Developer 
         </text>
         
-        <text
-            x="0"
-            y="20"
-            opacity="0">
-
-            Hi there! I&#x27;m  a Developer 👨
-
-            <animate
-                attributeName="opacity"
-                values="0;1;1;0"
-                keyTimes="0;0.748718;0.748821;0.764103"
-                dur="9.750s"
-                repeatCount="indefinite"
-            />
-
+        <text x="0" y="20" text-anchor="start" opacity="0">
+            <set attributeName="opacity" to="1" begin="7.3s" dur="0.15" fill="remove" />
+            Hi there! I'm  a Developer 👨
         </text>
         
-        <text
-            x="0"
-            y="20"
-            opacity="0">
-
-            Hi there! I&#x27;m  a Developer 👨‍
-
-            <animate
-                attributeName="opacity"
-                values="0;1;1;0"
-                keyTimes="0;0.764103;0.764205;0.779487"
-                dur="9.750s"
-                repeatCount="indefinite"
-            />
-
+        <text x="0" y="20" text-anchor="start" opacity="0">
+            <set attributeName="opacity" to="1" begin="7.45s" dur="0.15" fill="remove" />
+            Hi there! I'm  a Developer 👨‍
         </text>
         
-        <text
-            x="0"
-            y="20"
-            opacity="0">
-
-            Hi there! I&#x27;m  a Developer 👨‍💻
-
-            <animate
-                attributeName="opacity"
-                values="0;1;1;0"
-                keyTimes="0;0.779487;0.779590;0.794872"
-                dur="9.750s"
-                repeatCount="indefinite"
-            />
-
+        <text x="0" y="20" text-anchor="start" opacity="0">
+            <set attributeName="opacity" to="1" begin="7.6s" dur="0.15" fill="freeze" />
+            Hi there! I'm  a Developer 👨‍💻
         </text>
         
 
-    <!-- Waving hand -->
-    <text
-        x="288.0"
-        y="20"
-        opacity="0">
-
-        👋
-
-        <animate
-            attributeName="opacity"
-            values="0;0;1;1;0"
-            keyTimes="
-                0;
-                0.794872;
-                0.794974;
-                0.948718;
-                0.948821
-            "
-            dur="9.750s"
-            repeatCount="indefinite"
-        />
-
-        <animateTransform
-            attributeName="transform"
-            type="rotate"
-            values="
-                -20 298.0 20;
-                 20 298.0 20;
-                -20 298.0 20
-            "
-            dur="0.5s"
-            repeatCount="indefinite"
-        />
-
-    </text>
-
-</svg>
+        <!-- Animated emoji -->
+        <text x="288.0" y="20" text-anchor="start" opacity="0">
+            <set attributeName="opacity" to="1" begin="8.05s" dur="0.001s" fill="freeze" />
+            👋
+            <animateTransform attributeName="transform"
+                type="rotate"
+                values="-20 310.0 20; 20 310.0 20; -20 310.0 20"
+                dur="0.5s"
+                repeatCount="indefinite" />
+        </text>
+    </svg>
+    
