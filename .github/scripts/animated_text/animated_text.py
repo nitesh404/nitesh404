@@ -84,7 +84,3 @@ def save_svg(filename: str, content: str):
 if __name__ == "__main__":
     svg_content = build_svg_animation(TEXT)
     save_svg(FILENAME, svg_content)
-
-
-
-here when i open the readme github file at that time this animations shows and work properly but agfter 1 loop it stops i want it to be continune but as it is a svg image which i am showing on the readme i think image cant be looped 
