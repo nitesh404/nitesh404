@@ -1,1460 +1,1740 @@
-<?xml version="1.0" encoding="UTF-8"?>
 
 <svg
+    width="330"
+    height="40"
     xmlns="http://www.w3.org/2000/svg"
-    width="700"
-    height="70"
-    viewBox="0 0 700 70"
 >
 
 <style>
 
-.text {
+text {
     font-family: Arial, sans-serif;
-    font-size: 30px;
-    font-weight: 600;
+    font-weight: bold;
+    font-size: 20px;
     fill: #1F2328;
+    opacity: 0;
 }
 
 @media (prefers-color-scheme: dark) {
-    .text {
+    text {
         fill: #D1D7E0;
     }
 }
 
 </style>
 
-<rect
-    width="100%"
-    height="100%"
-    fill="transparent"
-/>
+<!-- Typing animation -->
+
+
+        <text
+            x="0"
+            y="20"
+            text-anchor="start"
+            opacity="0"
+        >
+            <set
+                attributeName="opacity"
+                to="1"
+                begin="0s"
+                dur="0.15s"
+                fill="remove"
+            />
+            H
+        </text>
+        
+        <text
+            x="0"
+            y="20"
+            text-anchor="start"
+            opacity="0"
+        >
+            <set
+                attributeName="opacity"
+                to="1"
+                begin="0.15s"
+                dur="0.15s"
+                fill="remove"
+            />
+            Hi
+        </text>
+        
+        <text
+            x="0"
+            y="20"
+            text-anchor="start"
+            opacity="0"
+        >
+            <set
+                attributeName="opacity"
+                to="1"
+                begin="0.3s"
+                dur="0.15s"
+                fill="remove"
+            />
+            Hi 
+        </text>
+        
+        <text
+            x="0"
+            y="20"
+            text-anchor="start"
+            opacity="0"
+        >
+            <set
+                attributeName="opacity"
+                to="1"
+                begin="0.45s"
+                dur="0.15s"
+                fill="remove"
+            />
+            Hi t
+        </text>
+        
+        <text
+            x="0"
+            y="20"
+            text-anchor="start"
+            opacity="0"
+        >
+            <set
+                attributeName="opacity"
+                to="1"
+                begin="0.6s"
+                dur="0.15s"
+                fill="remove"
+            />
+            Hi th
+        </text>
+        
+        <text
+            x="0"
+            y="20"
+            text-anchor="start"
+            opacity="0"
+        >
+            <set
+                attributeName="opacity"
+                to="1"
+                begin="0.75s"
+                dur="0.15s"
+                fill="remove"
+            />
+            Hi the
+        </text>
+        
+        <text
+            x="0"
+            y="20"
+            text-anchor="start"
+            opacity="0"
+        >
+            <set
+                attributeName="opacity"
+                to="1"
+                begin="0.9s"
+                dur="0.15s"
+                fill="remove"
+            />
+            Hi ther
+        </text>
+        
+        <text
+            x="0"
+            y="20"
+            text-anchor="start"
+            opacity="0"
+        >
+            <set
+                attributeName="opacity"
+                to="1"
+                begin="1.05s"
+                dur="0.15s"
+                fill="remove"
+            />
+            Hi there
+        </text>
+        
+        <text
+            x="0"
+            y="20"
+            text-anchor="start"
+            opacity="0"
+        >
+            <set
+                attributeName="opacity"
+                to="1"
+                begin="1.2s"
+                dur="0.15s"
+                fill="remove"
+            />
+            Hi there!
+        </text>
+        
+        <text
+            x="0"
+            y="20"
+            text-anchor="start"
+            opacity="0"
+        >
+            <set
+                attributeName="opacity"
+                to="1"
+                begin="1.35s"
+                dur="0.15s"
+                fill="remove"
+            />
+            Hi there! 
+        </text>
+        
+        <text
+            x="0"
+            y="20"
+            text-anchor="start"
+            opacity="0"
+        >
+            <set
+                attributeName="opacity"
+                to="1"
+                begin="1.5s"
+                dur="0.15s"
+                fill="remove"
+            />
+            Hi there! I
+        </text>
+        
+        <text
+            x="0"
+            y="20"
+            text-anchor="start"
+            opacity="0"
+        >
+            <set
+                attributeName="opacity"
+                to="1"
+                begin="1.65s"
+                dur="0.15s"
+                fill="remove"
+            />
+            Hi there! I'
+        </text>
+        
+        <text
+            x="0"
+            y="20"
+            text-anchor="start"
+            opacity="0"
+        >
+            <set
+                attributeName="opacity"
+                to="1"
+                begin="1.8s"
+                dur="0.15s"
+                fill="remove"
+            />
+            Hi there! I'm
+        </text>
+        
+        <text
+            x="0"
+            y="20"
+            text-anchor="start"
+            opacity="0"
+        >
+            <set
+                attributeName="opacity"
+                to="1"
+                begin="1.95s"
+                dur="0.15s"
+                fill="remove"
+            />
+            Hi there! I'm 
+        </text>
+        
+        <text
+            x="0"
+            y="20"
+            text-anchor="start"
+            opacity="0"
+        >
+            <set
+                attributeName="opacity"
+                to="1"
+                begin="2.1s"
+                dur="0.15s"
+                fill="remove"
+            />
+            Hi there! I'm N
+        </text>
+        
+        <text
+            x="0"
+            y="20"
+            text-anchor="start"
+            opacity="0"
+        >
+            <set
+                attributeName="opacity"
+                to="1"
+                begin="2.25s"
+                dur="0.15s"
+                fill="remove"
+            />
+            Hi there! I'm Ni
+        </text>
+        
+        <text
+            x="0"
+            y="20"
+            text-anchor="start"
+            opacity="0"
+        >
+            <set
+                attributeName="opacity"
+                to="1"
+                begin="2.4s"
+                dur="0.15s"
+                fill="remove"
+            />
+            Hi there! I'm Nit
+        </text>
+        
+        <text
+            x="0"
+            y="20"
+            text-anchor="start"
+            opacity="0"
+        >
+            <set
+                attributeName="opacity"
+                to="1"
+                begin="2.55s"
+                dur="0.15s"
+                fill="remove"
+            />
+            Hi there! I'm Nite
+        </text>
+        
+        <text
+            x="0"
+            y="20"
+            text-anchor="start"
+            opacity="0"
+        >
+            <set
+                attributeName="opacity"
+                to="1"
+                begin="2.7s"
+                dur="0.15s"
+                fill="remove"
+            />
+            Hi there! I'm Nites
+        </text>
+        
+        <text
+            x="0"
+            y="20"
+            text-anchor="start"
+            opacity="0"
+        >
+            <set
+                attributeName="opacity"
+                to="1"
+                begin="2.85s"
+                dur="0.15s"
+                fill="remove"
+            />
+            Hi there! I'm Nitesh
+        </text>
+        
+        <text
+            x="0"
+            y="20"
+            text-anchor="start"
+            opacity="0"
+        >
+            <set
+                attributeName="opacity"
+                to="1"
+                begin="3.0s"
+                dur="0.15s"
+                fill="remove"
+            />
+            Hi there! I'm Nitesh 
+        </text>
+        
+        <text
+            x="0"
+            y="20"
+            text-anchor="start"
+            opacity="0"
+        >
+            <set
+                attributeName="opacity"
+                to="1"
+                begin="3.15s"
+                dur="0.15s"
+                fill="remove"
+            />
+            Hi there! I'm Nitesh K
+        </text>
+        
+        <text
+            x="0"
+            y="20"
+            text-anchor="start"
+            opacity="0"
+        >
+            <set
+                attributeName="opacity"
+                to="1"
+                begin="3.3s"
+                dur="0.15s"
+                fill="remove"
+            />
+            Hi there! I'm Nitesh Ku
+        </text>
+        
+        <text
+            x="0"
+            y="20"
+            text-anchor="start"
+            opacity="0"
+        >
+            <set
+                attributeName="opacity"
+                to="1"
+                begin="3.45s"
+                dur="0.15s"
+                fill="remove"
+            />
+            Hi there! I'm Nitesh Kum
+        </text>
+        
+        <text
+            x="0"
+            y="20"
+            text-anchor="start"
+            opacity="0"
+        >
+            <set
+                attributeName="opacity"
+                to="1"
+                begin="3.6s"
+                dur="0.15s"
+                fill="remove"
+            />
+            Hi there! I'm Nitesh Kuma
+        </text>
+        
+        <text
+            x="0"
+            y="20"
+            text-anchor="start"
+            opacity="0"
+        >
+            <set
+                attributeName="opacity"
+                to="1"
+                begin="3.75s"
+                dur="0.15s"
+                fill="remove"
+            />
+            Hi there! I'm Nitesh Kumar
+        </text>
+        
+        <text
+            x="0"
+            y="20"
+            text-anchor="start"
+            opacity="0"
+        >
+            <set
+                attributeName="opacity"
+                to="1"
+                begin="3.9s"
+                dur="0.15s"
+                fill="remove"
+            />
+            Hi there! I'm Nitesh Kumar 
+        </text>
+        
+        <text
+            x="0"
+            y="20"
+            text-anchor="start"
+            opacity="0"
+        >
+            <set
+                attributeName="opacity"
+                to="1"
+                begin="4.05s"
+                dur="1.0s"
+                fill="remove"
+            />
+            Hi there! I'm Nitesh Kumar 👋
+        </text>
+        
+        <text
+            x="0"
+            y="20"
+            text-anchor="start"
+            opacity="0"
+        >
+            <set
+                attributeName="opacity"
+                to="1"
+                begin="5.05s"
+                dur="0.15s"
+                fill="remove"
+            />
+            Hi there! I'm Nitesh Kumar 
+        </text>
+        
+        <text
+            x="0"
+            y="20"
+            text-anchor="start"
+            opacity="0"
+        >
+            <set
+                attributeName="opacity"
+                to="1"
+                begin="5.2s"
+                dur="0.15s"
+                fill="remove"
+            />
+            Hi there! I'm Nitesh Kumar
+        </text>
+        
+        <text
+            x="0"
+            y="20"
+            text-anchor="start"
+            opacity="0"
+        >
+            <set
+                attributeName="opacity"
+                to="1"
+                begin="5.35s"
+                dur="0.15s"
+                fill="remove"
+            />
+            Hi there! I'm Nitesh Kuma
+        </text>
+        
+        <text
+            x="0"
+            y="20"
+            text-anchor="start"
+            opacity="0"
+        >
+            <set
+                attributeName="opacity"
+                to="1"
+                begin="5.5s"
+                dur="0.15s"
+                fill="remove"
+            />
+            Hi there! I'm Nitesh KumaN
+        </text>
+        
+        <text
+            x="0"
+            y="20"
+            text-anchor="start"
+            opacity="0"
+        >
+            <set
+                attributeName="opacity"
+                to="1"
+                begin="5.65s"
+                dur="0.15s"
+                fill="remove"
+            />
+            Hi there! I'm Nitesh KumaNi
+        </text>
+        
+        <text
+            x="0"
+            y="20"
+            text-anchor="start"
+            opacity="0"
+        >
+            <set
+                attributeName="opacity"
+                to="1"
+                begin="5.8s"
+                dur="0.15s"
+                fill="remove"
+            />
+            Hi there! I'm Nitesh KumaNit
+        </text>
+        
+        <text
+            x="0"
+            y="20"
+            text-anchor="start"
+            opacity="0"
+        >
+            <set
+                attributeName="opacity"
+                to="1"
+                begin="5.95s"
+                dur="0.15s"
+                fill="remove"
+            />
+            Hi there! I'm Nitesh KumaNite
+        </text>
+        
+        <text
+            x="0"
+            y="20"
+            text-anchor="start"
+            opacity="0"
+        >
+            <set
+                attributeName="opacity"
+                to="1"
+                begin="6.1s"
+                dur="0.15s"
+                fill="remove"
+            />
+            Hi there! I'm Nitesh KumaNites
+        </text>
+        
+        <text
+            x="0"
+            y="20"
+            text-anchor="start"
+            opacity="0"
+        >
+            <set
+                attributeName="opacity"
+                to="1"
+                begin="6.25s"
+                dur="0.15s"
+                fill="remove"
+            />
+            Hi there! I'm Nitesh KumaNitesh
+        </text>
+        
+        <text
+            x="0"
+            y="20"
+            text-anchor="start"
+            opacity="0"
+        >
+            <set
+                attributeName="opacity"
+                to="1"
+                begin="6.4s"
+                dur="0.15s"
+                fill="remove"
+            />
+            Hi there! I'm Nitesh KumaNitesh 
+        </text>
+        
+        <text
+            x="0"
+            y="20"
+            text-anchor="start"
+            opacity="0"
+        >
+            <set
+                attributeName="opacity"
+                to="1"
+                begin="6.55s"
+                dur="0.15s"
+                fill="remove"
+            />
+            Hi there! I'm Nitesh KumaNitesh K
+        </text>
+        
+        <text
+            x="0"
+            y="20"
+            text-anchor="start"
+            opacity="0"
+        >
+            <set
+                attributeName="opacity"
+                to="1"
+                begin="6.7s"
+                dur="0.15s"
+                fill="remove"
+            />
+            Hi there! I'm Nitesh KumaNitesh Ku
+        </text>
+        
+        <text
+            x="0"
+            y="20"
+            text-anchor="start"
+            opacity="0"
+        >
+            <set
+                attributeName="opacity"
+                to="1"
+                begin="6.85s"
+                dur="0.15s"
+                fill="remove"
+            />
+            Hi there! I'm Nitesh KumaNitesh Kum
+        </text>
+        
+        <text
+            x="0"
+            y="20"
+            text-anchor="start"
+            opacity="0"
+        >
+            <set
+                attributeName="opacity"
+                to="1"
+                begin="7.0s"
+                dur="0.15s"
+                fill="remove"
+            />
+            Hi there! I'm Nitesh KumaNitesh Kuma
+        </text>
+        
+        <text
+            x="0"
+            y="20"
+            text-anchor="start"
+            opacity="0"
+        >
+            <set
+                attributeName="opacity"
+                to="1"
+                begin="7.15s"
+                dur="0.15s"
+                fill="remove"
+            />
+            Hi there! I'm Nitesh KumaNitesh Kumar
+        </text>
+        
+        <text
+            x="0"
+            y="20"
+            text-anchor="start"
+            opacity="0"
+        >
+            <set
+                attributeName="opacity"
+                to="1"
+                begin="7.3s"
+                dur="0.15s"
+                fill="remove"
+            />
+            Hi there! I'm Nitesh KumaNitesh Kumar 
+        </text>
+        
+        <text
+            x="0"
+            y="20"
+            text-anchor="start"
+            opacity="0"
+        >
+            <set
+                attributeName="opacity"
+                to="1"
+                begin="7.45s"
+                dur="1.0s"
+                fill="remove"
+            />
+            Hi there! I'm Nitesh KumaNitesh Kumar 👋
+        </text>
+        
+        <text
+            x="0"
+            y="20"
+            text-anchor="start"
+            opacity="0"
+        >
+            <set
+                attributeName="opacity"
+                to="1"
+                begin="8.45s"
+                dur="0.15s"
+                fill="remove"
+            />
+            Hi there! I'm Nitesh KumaNitesh Kumar 
+        </text>
+        
+        <text
+            x="0"
+            y="20"
+            text-anchor="start"
+            opacity="0"
+        >
+            <set
+                attributeName="opacity"
+                to="1"
+                begin="8.6s"
+                dur="0.15s"
+                fill="remove"
+            />
+            Hi there! I'm Nitesh KumaNitesh Kumar
+        </text>
+        
+        <text
+            x="0"
+            y="20"
+            text-anchor="start"
+            opacity="0"
+        >
+            <set
+                attributeName="opacity"
+                to="1"
+                begin="8.75s"
+                dur="0.15s"
+                fill="remove"
+            />
+            Hi there! I'm Nitesh KumaNitesh Kuma
+        </text>
+        
+        <text
+            x="0"
+            y="20"
+            text-anchor="start"
+            opacity="0"
+        >
+            <set
+                attributeName="opacity"
+                to="1"
+                begin="8.9s"
+                dur="0.15s"
+                fill="remove"
+            />
+            Hi there! I'm Nitesh KumaNitesh KumaI
+        </text>
+        
+        <text
+            x="0"
+            y="20"
+            text-anchor="start"
+            opacity="0"
+        >
+            <set
+                attributeName="opacity"
+                to="1"
+                begin="9.05s"
+                dur="0.15s"
+                fill="remove"
+            />
+            Hi there! I'm Nitesh KumaNitesh KumaI'
+        </text>
+        
+        <text
+            x="0"
+            y="20"
+            text-anchor="start"
+            opacity="0"
+        >
+            <set
+                attributeName="opacity"
+                to="1"
+                begin="9.2s"
+                dur="0.15s"
+                fill="remove"
+            />
+            Hi there! I'm Nitesh KumaNitesh KumaI'm
+        </text>
+        
+        <text
+            x="0"
+            y="20"
+            text-anchor="start"
+            opacity="0"
+        >
+            <set
+                attributeName="opacity"
+                to="1"
+                begin="9.35s"
+                dur="0.15s"
+                fill="remove"
+            />
+            Hi there! I'm Nitesh KumaNitesh KumaI'm 
+        </text>
+        
+        <text
+            x="0"
+            y="20"
+            text-anchor="start"
+            opacity="0"
+        >
+            <set
+                attributeName="opacity"
+                to="1"
+                begin="9.5s"
+                dur="0.15s"
+                fill="remove"
+            />
+            Hi there! I'm Nitesh KumaNitesh KumaI'm a
+        </text>
+        
+        <text
+            x="0"
+            y="20"
+            text-anchor="start"
+            opacity="0"
+        >
+            <set
+                attributeName="opacity"
+                to="1"
+                begin="9.65s"
+                dur="0.15s"
+                fill="remove"
+            />
+            Hi there! I'm Nitesh KumaNitesh KumaI'm a 
+        </text>
+        
+        <text
+            x="0"
+            y="20"
+            text-anchor="start"
+            opacity="0"
+        >
+            <set
+                attributeName="opacity"
+                to="1"
+                begin="9.8s"
+                dur="0.15s"
+                fill="remove"
+            />
+            Hi there! I'm Nitesh KumaNitesh KumaI'm a D
+        </text>
+        
+        <text
+            x="0"
+            y="20"
+            text-anchor="start"
+            opacity="0"
+        >
+            <set
+                attributeName="opacity"
+                to="1"
+                begin="9.95s"
+                dur="0.15s"
+                fill="remove"
+            />
+            Hi there! I'm Nitesh KumaNitesh KumaI'm a De
+        </text>
+        
+        <text
+            x="0"
+            y="20"
+            text-anchor="start"
+            opacity="0"
+        >
+            <set
+                attributeName="opacity"
+                to="1"
+                begin="10.1s"
+                dur="0.15s"
+                fill="remove"
+            />
+            Hi there! I'm Nitesh KumaNitesh KumaI'm a Dev
+        </text>
+        
+        <text
+            x="0"
+            y="20"
+            text-anchor="start"
+            opacity="0"
+        >
+            <set
+                attributeName="opacity"
+                to="1"
+                begin="10.25s"
+                dur="0.15s"
+                fill="remove"
+            />
+            Hi there! I'm Nitesh KumaNitesh KumaI'm a Deve
+        </text>
+        
+        <text
+            x="0"
+            y="20"
+            text-anchor="start"
+            opacity="0"
+        >
+            <set
+                attributeName="opacity"
+                to="1"
+                begin="10.4s"
+                dur="0.15s"
+                fill="remove"
+            />
+            Hi there! I'm Nitesh KumaNitesh KumaI'm a Devel
+        </text>
+        
+        <text
+            x="0"
+            y="20"
+            text-anchor="start"
+            opacity="0"
+        >
+            <set
+                attributeName="opacity"
+                to="1"
+                begin="10.55s"
+                dur="0.15s"
+                fill="remove"
+            />
+            Hi there! I'm Nitesh KumaNitesh KumaI'm a Develo
+        </text>
+        
+        <text
+            x="0"
+            y="20"
+            text-anchor="start"
+            opacity="0"
+        >
+            <set
+                attributeName="opacity"
+                to="1"
+                begin="10.7s"
+                dur="0.15s"
+                fill="remove"
+            />
+            Hi there! I'm Nitesh KumaNitesh KumaI'm a Develop
+        </text>
+        
+        <text
+            x="0"
+            y="20"
+            text-anchor="start"
+            opacity="0"
+        >
+            <set
+                attributeName="opacity"
+                to="1"
+                begin="10.85s"
+                dur="0.15s"
+                fill="remove"
+            />
+            Hi there! I'm Nitesh KumaNitesh KumaI'm a Develope
+        </text>
+        
+        <text
+            x="0"
+            y="20"
+            text-anchor="start"
+            opacity="0"
+        >
+            <set
+                attributeName="opacity"
+                to="1"
+                begin="11.0s"
+                dur="0.15s"
+                fill="remove"
+            />
+            Hi there! I'm Nitesh KumaNitesh KumaI'm a Developer
+        </text>
+        
+        <text
+            x="0"
+            y="20"
+            text-anchor="start"
+            opacity="0"
+        >
+            <set
+                attributeName="opacity"
+                to="1"
+                begin="11.15s"
+                dur="0.15s"
+                fill="remove"
+            />
+            Hi there! I'm Nitesh KumaNitesh KumaI'm a Developer 
+        </text>
+        
+        <text
+            x="0"
+            y="20"
+            text-anchor="start"
+            opacity="0"
+        >
+            <set
+                attributeName="opacity"
+                to="1"
+                begin="11.3s"
+                dur="0.15s"
+                fill="remove"
+            />
+            Hi there! I'm Nitesh KumaNitesh KumaI'm a Developer 👨
+        </text>
+        
+        <text
+            x="0"
+            y="20"
+            text-anchor="start"
+            opacity="0"
+        >
+            <set
+                attributeName="opacity"
+                to="1"
+                begin="11.45s"
+                dur="0.15s"
+                fill="remove"
+            />
+            Hi there! I'm Nitesh KumaNitesh KumaI'm a Developer 👨‍
+        </text>
+        
+        <text
+            x="0"
+            y="20"
+            text-anchor="start"
+            opacity="0"
+        >
+            <set
+                attributeName="opacity"
+                to="1"
+                begin="11.6s"
+                dur="1.0s"
+                fill="remove"
+            />
+            Hi there! I'm Nitesh KumaNitesh KumaI'm a Developer 👨‍💻
+        </text>
+        
+        <text
+            x="0"
+            y="20"
+            text-anchor="start"
+            opacity="0"
+        >
+            <set
+                attributeName="opacity"
+                to="1"
+                begin="12.6s"
+                dur="0.15s"
+                fill="remove"
+            />
+            Hi there! I'm Nitesh KumaNitesh KumaI'm a Developer 👨‍
+        </text>
+        
+        <text
+            x="0"
+            y="20"
+            text-anchor="start"
+            opacity="0"
+        >
+            <set
+                attributeName="opacity"
+                to="1"
+                begin="12.75s"
+                dur="0.15s"
+                fill="remove"
+            />
+            Hi there! I'm Nitesh KumaNitesh KumaI'm a Developer 👨
+        </text>
+        
+        <text
+            x="0"
+            y="20"
+            text-anchor="start"
+            opacity="0"
+        >
+            <set
+                attributeName="opacity"
+                to="1"
+                begin="12.9s"
+                dur="0.15s"
+                fill="remove"
+            />
+            Hi there! I'm Nitesh KumaNitesh KumaI'm a Developer 
+        </text>
+        
+        <text
+            x="0"
+            y="20"
+            text-anchor="start"
+            opacity="0"
+        >
+            <set
+                attributeName="opacity"
+                to="1"
+                begin="13.05s"
+                dur="0.15s"
+                fill="remove"
+            />
+            Hi there! I'm Nitesh KumaNitesh KumaI'm a Developer D
+        </text>
+        
+        <text
+            x="0"
+            y="20"
+            text-anchor="start"
+            opacity="0"
+        >
+            <set
+                attributeName="opacity"
+                to="1"
+                begin="13.2s"
+                dur="0.15s"
+                fill="remove"
+            />
+            Hi there! I'm Nitesh KumaNitesh KumaI'm a Developer De
+        </text>
+        
+        <text
+            x="0"
+            y="20"
+            text-anchor="start"
+            opacity="0"
+        >
+            <set
+                attributeName="opacity"
+                to="1"
+                begin="13.35s"
+                dur="0.15s"
+                fill="remove"
+            />
+            Hi there! I'm Nitesh KumaNitesh KumaI'm a Developer Dev
+        </text>
+        
+        <text
+            x="0"
+            y="20"
+            text-anchor="start"
+            opacity="0"
+        >
+            <set
+                attributeName="opacity"
+                to="1"
+                begin="13.5s"
+                dur="0.15s"
+                fill="remove"
+            />
+            Hi there! I'm Nitesh KumaNitesh KumaI'm a Developer Deve
+        </text>
+        
+        <text
+            x="0"
+            y="20"
+            text-anchor="start"
+            opacity="0"
+        >
+            <set
+                attributeName="opacity"
+                to="1"
+                begin="13.65s"
+                dur="0.15s"
+                fill="remove"
+            />
+            Hi there! I'm Nitesh KumaNitesh KumaI'm a Developer Devel
+        </text>
+        
+        <text
+            x="0"
+            y="20"
+            text-anchor="start"
+            opacity="0"
+        >
+            <set
+                attributeName="opacity"
+                to="1"
+                begin="13.8s"
+                dur="0.15s"
+                fill="remove"
+            />
+            Hi there! I'm Nitesh KumaNitesh KumaI'm a Developer Develo
+        </text>
+        
+        <text
+            x="0"
+            y="20"
+            text-anchor="start"
+            opacity="0"
+        >
+            <set
+                attributeName="opacity"
+                to="1"
+                begin="13.95s"
+                dur="0.15s"
+                fill="remove"
+            />
+            Hi there! I'm Nitesh KumaNitesh KumaI'm a Developer Develop
+        </text>
+        
+        <text
+            x="0"
+            y="20"
+            text-anchor="start"
+            opacity="0"
+        >
+            <set
+                attributeName="opacity"
+                to="1"
+                begin="14.1s"
+                dur="0.15s"
+                fill="remove"
+            />
+            Hi there! I'm Nitesh KumaNitesh KumaI'm a Developer Develope
+        </text>
+        
+        <text
+            x="0"
+            y="20"
+            text-anchor="start"
+            opacity="0"
+        >
+            <set
+                attributeName="opacity"
+                to="1"
+                begin="14.25s"
+                dur="0.15s"
+                fill="remove"
+            />
+            Hi there! I'm Nitesh KumaNitesh KumaI'm a Developer Developer
+        </text>
+        
+        <text
+            x="0"
+            y="20"
+            text-anchor="start"
+            opacity="0"
+        >
+            <set
+                attributeName="opacity"
+                to="1"
+                begin="14.4s"
+                dur="0.15s"
+                fill="remove"
+            />
+            Hi there! I'm Nitesh KumaNitesh KumaI'm a Developer Developer 
+        </text>
+        
+        <text
+            x="0"
+            y="20"
+            text-anchor="start"
+            opacity="0"
+        >
+            <set
+                attributeName="opacity"
+                to="1"
+                begin="14.55s"
+                dur="0.15s"
+                fill="remove"
+            />
+            Hi there! I'm Nitesh KumaNitesh KumaI'm a Developer Developer 👨
+        </text>
+        
+        <text
+            x="0"
+            y="20"
+            text-anchor="start"
+            opacity="0"
+        >
+            <set
+                attributeName="opacity"
+                to="1"
+                begin="14.7s"
+                dur="0.15s"
+                fill="remove"
+            />
+            Hi there! I'm Nitesh KumaNitesh KumaI'm a Developer Developer 👨‍
+        </text>
+        
+        <text
+            x="0"
+            y="20"
+            text-anchor="start"
+            opacity="0"
+        >
+            <set
+                attributeName="opacity"
+                to="1"
+                begin="14.85s"
+                dur="1.0s"
+                fill="remove"
+            />
+            Hi there! I'm Nitesh KumaNitesh KumaI'm a Developer Developer 👨‍💻
+        </text>
+        
+        <text
+            x="0"
+            y="20"
+            text-anchor="start"
+            opacity="0"
+        >
+            <set
+                attributeName="opacity"
+                to="1"
+                begin="15.85s"
+                dur="0.15s"
+                fill="remove"
+            />
+            Hi there! I'm Nitesh KumaNitesh KumaI'm a Developer Developer 👨‍
+        </text>
+        
+        <text
+            x="0"
+            y="20"
+            text-anchor="start"
+            opacity="0"
+        >
+            <set
+                attributeName="opacity"
+                to="1"
+                begin="16.0s"
+                dur="0.15s"
+                fill="remove"
+            />
+            Hi there! I'm Nitesh KumaNitesh KumaI'm a Developer Developer 👨
+        </text>
+        
+        <text
+            x="0"
+            y="20"
+            text-anchor="start"
+            opacity="0"
+        >
+            <set
+                attributeName="opacity"
+                to="1"
+                begin="16.15s"
+                dur="0.15s"
+                fill="remove"
+            />
+            Hi there! I'm Nitesh KumaNitesh KumaI'm a Developer Developer 
+        </text>
+        
+        <text
+            x="0"
+            y="20"
+            text-anchor="start"
+            opacity="0"
+        >
+            <set
+                attributeName="opacity"
+                to="1"
+                begin="16.3s"
+                dur="0.15s"
+                fill="remove"
+            />
+            Hi there! I'm Nitesh KumaNitesh KumaI'm a Developer Developer I
+        </text>
+        
+        <text
+            x="0"
+            y="20"
+            text-anchor="start"
+            opacity="0"
+        >
+            <set
+                attributeName="opacity"
+                to="1"
+                begin="16.45s"
+                dur="0.15s"
+                fill="remove"
+            />
+            Hi there! I'm Nitesh KumaNitesh KumaI'm a Developer Developer I'
+        </text>
+        
+        <text
+            x="0"
+            y="20"
+            text-anchor="start"
+            opacity="0"
+        >
+            <set
+                attributeName="opacity"
+                to="1"
+                begin="16.6s"
+                dur="0.15s"
+                fill="remove"
+            />
+            Hi there! I'm Nitesh KumaNitesh KumaI'm a Developer Developer I'm
+        </text>
+        
+        <text
+            x="0"
+            y="20"
+            text-anchor="start"
+            opacity="0"
+        >
+            <set
+                attributeName="opacity"
+                to="1"
+                begin="16.75s"
+                dur="0.15s"
+                fill="remove"
+            />
+            Hi there! I'm Nitesh KumaNitesh KumaI'm a Developer Developer I'm 
+        </text>
+        
+        <text
+            x="0"
+            y="20"
+            text-anchor="start"
+            opacity="0"
+        >
+            <set
+                attributeName="opacity"
+                to="1"
+                begin="16.9s"
+                dur="0.15s"
+                fill="remove"
+            />
+            Hi there! I'm Nitesh KumaNitesh KumaI'm a Developer Developer I'm a
+        </text>
+        
+        <text
+            x="0"
+            y="20"
+            text-anchor="start"
+            opacity="0"
+        >
+            <set
+                attributeName="opacity"
+                to="1"
+                begin="17.05s"
+                dur="0.15s"
+                fill="remove"
+            />
+            Hi there! I'm Nitesh KumaNitesh KumaI'm a Developer Developer I'm a 
+        </text>
+        
+        <text
+            x="0"
+            y="20"
+            text-anchor="start"
+            opacity="0"
+        >
+            <set
+                attributeName="opacity"
+                to="1"
+                begin="17.2s"
+                dur="0.15s"
+                fill="remove"
+            />
+            Hi there! I'm Nitesh KumaNitesh KumaI'm a Developer Developer I'm a D
+        </text>
+        
+        <text
+            x="0"
+            y="20"
+            text-anchor="start"
+            opacity="0"
+        >
+            <set
+                attributeName="opacity"
+                to="1"
+                begin="17.35s"
+                dur="0.15s"
+                fill="remove"
+            />
+            Hi there! I'm Nitesh KumaNitesh KumaI'm a Developer Developer I'm a De
+        </text>
+        
+        <text
+            x="0"
+            y="20"
+            text-anchor="start"
+            opacity="0"
+        >
+            <set
+                attributeName="opacity"
+                to="1"
+                begin="17.5s"
+                dur="0.15s"
+                fill="remove"
+            />
+            Hi there! I'm Nitesh KumaNitesh KumaI'm a Developer Developer I'm a Dev
+        </text>
+        
+        <text
+            x="0"
+            y="20"
+            text-anchor="start"
+            opacity="0"
+        >
+            <set
+                attributeName="opacity"
+                to="1"
+                begin="17.65s"
+                dur="0.15s"
+                fill="remove"
+            />
+            Hi there! I'm Nitesh KumaNitesh KumaI'm a Developer Developer I'm a Deve
+        </text>
+        
+        <text
+            x="0"
+            y="20"
+            text-anchor="start"
+            opacity="0"
+        >
+            <set
+                attributeName="opacity"
+                to="1"
+                begin="17.8s"
+                dur="0.15s"
+                fill="remove"
+            />
+            Hi there! I'm Nitesh KumaNitesh KumaI'm a Developer Developer I'm a Devel
+        </text>
+        
+        <text
+            x="0"
+            y="20"
+            text-anchor="start"
+            opacity="0"
+        >
+            <set
+                attributeName="opacity"
+                to="1"
+                begin="17.95s"
+                dur="0.15s"
+                fill="remove"
+            />
+            Hi there! I'm Nitesh KumaNitesh KumaI'm a Developer Developer I'm a Develo
+        </text>
+        
+        <text
+            x="0"
+            y="20"
+            text-anchor="start"
+            opacity="0"
+        >
+            <set
+                attributeName="opacity"
+                to="1"
+                begin="18.1s"
+                dur="0.15s"
+                fill="remove"
+            />
+            Hi there! I'm Nitesh KumaNitesh KumaI'm a Developer Developer I'm a Develop
+        </text>
+        
+        <text
+            x="0"
+            y="20"
+            text-anchor="start"
+            opacity="0"
+        >
+            <set
+                attributeName="opacity"
+                to="1"
+                begin="18.25s"
+                dur="0.15s"
+                fill="remove"
+            />
+            Hi there! I'm Nitesh KumaNitesh KumaI'm a Developer Developer I'm a Develope
+        </text>
+        
+        <text
+            x="0"
+            y="20"
+            text-anchor="start"
+            opacity="0"
+        >
+            <set
+                attributeName="opacity"
+                to="1"
+                begin="18.4s"
+                dur="0.15s"
+                fill="remove"
+            />
+            Hi there! I'm Nitesh KumaNitesh KumaI'm a Developer Developer I'm a Developer
+        </text>
+        
+        <text
+            x="0"
+            y="20"
+            text-anchor="start"
+            opacity="0"
+        >
+            <set
+                attributeName="opacity"
+                to="1"
+                begin="18.55s"
+                dur="0.15s"
+                fill="remove"
+            />
+            Hi there! I'm Nitesh KumaNitesh KumaI'm a Developer Developer I'm a Developer 
+        </text>
+        
+        <text
+            x="0"
+            y="20"
+            text-anchor="start"
+            opacity="0"
+        >
+            <set
+                attributeName="opacity"
+                to="1"
+                begin="18.7s"
+                dur="0.15s"
+                fill="remove"
+            />
+            Hi there! I'm Nitesh KumaNitesh KumaI'm a Developer Developer I'm a Developer 👨
+        </text>
+        
+        <text
+            x="0"
+            y="20"
+            text-anchor="start"
+            opacity="0"
+        >
+            <set
+                attributeName="opacity"
+                to="1"
+                begin="18.85s"
+                dur="0.15s"
+                fill="remove"
+            />
+            Hi there! I'm Nitesh KumaNitesh KumaI'm a Developer Developer I'm a Developer 👨‍
+        </text>
+        
+        <text
+            x="0"
+            y="20"
+            text-anchor="start"
+            opacity="0"
+        >
+            <set
+                attributeName="opacity"
+                to="1"
+                begin="19.0s"
+                dur="0.15s"
+                fill="freeze"
+            />
+            Hi there! I'm Nitesh KumaNitesh KumaI'm a Developer Developer I'm a Developer 👨‍💻
+        </text>
+        
+
+<!-- Waving hand -->
 
 <text
-    class="text"
-    x="350.0"
-    y="45"
-    text-anchor="middle"
->
-
-
-<tspan
-    x="350.0"
-    opacity="0"
->
-    H
-
-    <set
-        attributeName="opacity"
-        to="1"
-        begin="0.000s"
-        dur="0.080s"
-    />
-
-</tspan>
-
-<tspan
-    x="350.0"
-    opacity="0"
->
-    Hi
-
-    <set
-        attributeName="opacity"
-        to="1"
-        begin="0.080s"
-        dur="0.080s"
-    />
-
-</tspan>
-
-<tspan
-    x="350.0"
-    opacity="0"
->
-    Hi 
-
-    <set
-        attributeName="opacity"
-        to="1"
-        begin="0.160s"
-        dur="0.080s"
-    />
-
-</tspan>
-
-<tspan
-    x="350.0"
-    opacity="0"
->
-    Hi t
-
-    <set
-        attributeName="opacity"
-        to="1"
-        begin="0.240s"
-        dur="0.080s"
-    />
-
-</tspan>
-
-<tspan
-    x="350.0"
-    opacity="0"
->
-    Hi th
-
-    <set
-        attributeName="opacity"
-        to="1"
-        begin="0.320s"
-        dur="0.080s"
-    />
-
-</tspan>
-
-<tspan
-    x="350.0"
-    opacity="0"
->
-    Hi the
-
-    <set
-        attributeName="opacity"
-        to="1"
-        begin="0.400s"
-        dur="0.080s"
-    />
-
-</tspan>
-
-<tspan
-    x="350.0"
-    opacity="0"
->
-    Hi ther
-
-    <set
-        attributeName="opacity"
-        to="1"
-        begin="0.480s"
-        dur="0.080s"
-    />
-
-</tspan>
-
-<tspan
-    x="350.0"
-    opacity="0"
->
-    Hi there
-
-    <set
-        attributeName="opacity"
-        to="1"
-        begin="0.560s"
-        dur="0.080s"
-    />
-
-</tspan>
-
-<tspan
-    x="350.0"
-    opacity="0"
->
-    Hi there!
-
-    <set
-        attributeName="opacity"
-        to="1"
-        begin="0.640s"
-        dur="0.080s"
-    />
-
-</tspan>
-
-<tspan
-    x="350.0"
-    opacity="0"
->
-    Hi there! 
-
-    <set
-        attributeName="opacity"
-        to="1"
-        begin="0.720s"
-        dur="0.080s"
-    />
-
-</tspan>
-
-<tspan
-    x="350.0"
-    opacity="0"
->
-    Hi there! I
-
-    <set
-        attributeName="opacity"
-        to="1"
-        begin="0.800s"
-        dur="0.080s"
-    />
-
-</tspan>
-
-<tspan
-    x="350.0"
-    opacity="0"
->
-    Hi there! I&#x27;
-
-    <set
-        attributeName="opacity"
-        to="1"
-        begin="0.880s"
-        dur="0.080s"
-    />
-
-</tspan>
-
-<tspan
-    x="350.0"
-    opacity="0"
->
-    Hi there! I&#x27;m
-
-    <set
-        attributeName="opacity"
-        to="1"
-        begin="0.960s"
-        dur="0.080s"
-    />
-
-</tspan>
-
-<tspan
-    x="350.0"
-    opacity="0"
->
-    Hi there! I&#x27;m 
-
-    <set
-        attributeName="opacity"
-        to="1"
-        begin="1.040s"
-        dur="0.080s"
-    />
-
-</tspan>
-
-<tspan
-    x="350.0"
-    opacity="0"
->
-    Hi there! I&#x27;m N
-
-    <set
-        attributeName="opacity"
-        to="1"
-        begin="1.120s"
-        dur="0.080s"
-    />
-
-</tspan>
-
-<tspan
-    x="350.0"
-    opacity="0"
->
-    Hi there! I&#x27;m Ni
-
-    <set
-        attributeName="opacity"
-        to="1"
-        begin="1.200s"
-        dur="0.080s"
-    />
-
-</tspan>
-
-<tspan
-    x="350.0"
-    opacity="0"
->
-    Hi there! I&#x27;m Nit
-
-    <set
-        attributeName="opacity"
-        to="1"
-        begin="1.280s"
-        dur="0.080s"
-    />
-
-</tspan>
-
-<tspan
-    x="350.0"
-    opacity="0"
->
-    Hi there! I&#x27;m Nite
-
-    <set
-        attributeName="opacity"
-        to="1"
-        begin="1.360s"
-        dur="0.080s"
-    />
-
-</tspan>
-
-<tspan
-    x="350.0"
-    opacity="0"
->
-    Hi there! I&#x27;m Nites
-
-    <set
-        attributeName="opacity"
-        to="1"
-        begin="1.440s"
-        dur="0.080s"
-    />
-
-</tspan>
-
-<tspan
-    x="350.0"
-    opacity="0"
->
-    Hi there! I&#x27;m Nitesh
-
-    <set
-        attributeName="opacity"
-        to="1"
-        begin="1.520s"
-        dur="0.080s"
-    />
-
-</tspan>
-
-<tspan
-    x="350.0"
-    opacity="0"
->
-    Hi there! I&#x27;m Nitesh 
-
-    <set
-        attributeName="opacity"
-        to="1"
-        begin="1.600s"
-        dur="0.080s"
-    />
-
-</tspan>
-
-<tspan
-    x="350.0"
-    opacity="0"
->
-    Hi there! I&#x27;m Nitesh K
-
-    <set
-        attributeName="opacity"
-        to="1"
-        begin="1.680s"
-        dur="0.080s"
-    />
-
-</tspan>
-
-<tspan
-    x="350.0"
-    opacity="0"
->
-    Hi there! I&#x27;m Nitesh Ku
-
-    <set
-        attributeName="opacity"
-        to="1"
-        begin="1.760s"
-        dur="0.080s"
-    />
-
-</tspan>
-
-<tspan
-    x="350.0"
-    opacity="0"
->
-    Hi there! I&#x27;m Nitesh Kum
-
-    <set
-        attributeName="opacity"
-        to="1"
-        begin="1.840s"
-        dur="0.080s"
-    />
-
-</tspan>
-
-<tspan
-    x="350.0"
-    opacity="0"
->
-    Hi there! I&#x27;m Nitesh Kuma
-
-    <set
-        attributeName="opacity"
-        to="1"
-        begin="1.920s"
-        dur="0.080s"
-    />
-
-</tspan>
-
-<tspan
-    x="350.0"
-    opacity="0"
->
-    Hi there! I&#x27;m Nitesh Kumar
-
-    <set
-        attributeName="opacity"
-        to="1"
-        begin="2.000s"
-        dur="0.080s"
-    />
-
-</tspan>
-
-<tspan
-    x="350.0"
-    opacity="0"
->
-    Hi there! I&#x27;m Nitesh Kumar 
-
-    <set
-        attributeName="opacity"
-        to="1"
-        begin="2.080s"
-        dur="0.080s"
-    />
-
-</tspan>
-
-<tspan
-    x="350.0"
-    opacity="0"
->
-    Hi there! I&#x27;m Nitesh Kumar 👋
-
-    <set
-        attributeName="opacity"
-        to="1"
-        begin="2.160s"
-        dur="1.580s"
-    />
-
-</tspan>
-
-<tspan
-    x="350.0"
-    opacity="0"
->
-    Hi there! I&#x27;m Nitesh Kumar 
-
-    <set
-        attributeName="opacity"
-        to="1"
-        begin="3.740s"
-        dur="0.050s"
-    />
-
-</tspan>
-
-<tspan
-    x="350.0"
-    opacity="0"
->
-    Hi there! I&#x27;m Nitesh Kumar
-
-    <set
-        attributeName="opacity"
-        to="1"
-        begin="3.790s"
-        dur="0.050s"
-    />
-
-</tspan>
-
-<tspan
-    x="350.0"
-    opacity="0"
->
-    Hi there! I&#x27;m Nitesh Kuma
-
-    <set
-        attributeName="opacity"
-        to="1"
-        begin="3.840s"
-        dur="0.050s"
-    />
-
-</tspan>
-
-<tspan
-    x="350.0"
-    opacity="0"
->
-    Hi there! I&#x27;m Nitesh Kum
-
-    <set
-        attributeName="opacity"
-        to="1"
-        begin="3.890s"
-        dur="0.050s"
-    />
-
-</tspan>
-
-<tspan
-    x="350.0"
-    opacity="0"
->
-    Hi there! I&#x27;m Nitesh Ku
-
-    <set
-        attributeName="opacity"
-        to="1"
-        begin="3.940s"
-        dur="0.050s"
-    />
-
-</tspan>
-
-<tspan
-    x="350.0"
-    opacity="0"
->
-    Hi there! I&#x27;m Nitesh K
-
-    <set
-        attributeName="opacity"
-        to="1"
-        begin="3.990s"
-        dur="0.050s"
-    />
-
-</tspan>
-
-<tspan
-    x="350.0"
-    opacity="0"
->
-    Hi there! I&#x27;m Nitesh 
-
-    <set
-        attributeName="opacity"
-        to="1"
-        begin="4.040s"
-        dur="0.050s"
-    />
-
-</tspan>
-
-<tspan
-    x="350.0"
-    opacity="0"
->
-    Hi there! I&#x27;m Nitesh
-
-    <set
-        attributeName="opacity"
-        to="1"
-        begin="4.090s"
-        dur="0.050s"
-    />
-
-</tspan>
-
-<tspan
-    x="350.0"
-    opacity="0"
->
-    Hi there! I&#x27;m Nites
-
-    <set
-        attributeName="opacity"
-        to="1"
-        begin="4.140s"
-        dur="0.050s"
-    />
-
-</tspan>
-
-<tspan
-    x="350.0"
-    opacity="0"
->
-    Hi there! I&#x27;m Nite
-
-    <set
-        attributeName="opacity"
-        to="1"
-        begin="4.190s"
-        dur="0.050s"
-    />
-
-</tspan>
-
-<tspan
-    x="350.0"
-    opacity="0"
->
-    Hi there! I&#x27;m Nit
-
-    <set
-        attributeName="opacity"
-        to="1"
-        begin="4.240s"
-        dur="0.050s"
-    />
-
-</tspan>
-
-<tspan
-    x="350.0"
-    opacity="0"
->
-    Hi there! I&#x27;m Ni
-
-    <set
-        attributeName="opacity"
-        to="1"
-        begin="4.290s"
-        dur="0.050s"
-    />
-
-</tspan>
-
-<tspan
-    x="350.0"
-    opacity="0"
->
-    Hi there! I&#x27;m N
-
-    <set
-        attributeName="opacity"
-        to="1"
-        begin="4.340s"
-        dur="0.050s"
-    />
-
-</tspan>
-
-<tspan
-    x="350.0"
-    opacity="0"
->
-    Hi there! I&#x27;m 
-
-    <set
-        attributeName="opacity"
-        to="1"
-        begin="4.390s"
-        dur="0.050s"
-    />
-
-</tspan>
-
-<tspan
-    x="350.0"
-    opacity="0"
->
-    Hi there! I&#x27;m
-
-    <set
-        attributeName="opacity"
-        to="1"
-        begin="4.440s"
-        dur="0.050s"
-    />
-
-</tspan>
-
-<tspan
-    x="350.0"
-    opacity="0"
->
-    Hi there! I&#x27;
-
-    <set
-        attributeName="opacity"
-        to="1"
-        begin="4.490s"
-        dur="0.050s"
-    />
-
-</tspan>
-
-<tspan
-    x="350.0"
-    opacity="0"
->
-    Hi there! I
-
-    <set
-        attributeName="opacity"
-        to="1"
-        begin="4.540s"
-        dur="0.050s"
-    />
-
-</tspan>
-
-<tspan
-    x="350.0"
-    opacity="0"
->
-    Hi there! 
-
-    <set
-        attributeName="opacity"
-        to="1"
-        begin="4.590s"
-        dur="0.050s"
-    />
-
-</tspan>
-
-<tspan
-    x="350.0"
-    opacity="0"
->
-    Hi there!
-
-    <set
-        attributeName="opacity"
-        to="1"
-        begin="4.640s"
-        dur="0.050s"
-    />
-
-</tspan>
-
-<tspan
-    x="350.0"
-    opacity="0"
->
-    Hi there
-
-    <set
-        attributeName="opacity"
-        to="1"
-        begin="4.690s"
-        dur="0.050s"
-    />
-
-</tspan>
-
-<tspan
-    x="350.0"
-    opacity="0"
->
-    Hi ther
-
-    <set
-        attributeName="opacity"
-        to="1"
-        begin="4.740s"
-        dur="0.050s"
-    />
-
-</tspan>
-
-<tspan
-    x="350.0"
-    opacity="0"
->
-    Hi the
-
-    <set
-        attributeName="opacity"
-        to="1"
-        begin="4.790s"
-        dur="0.050s"
-    />
-
-</tspan>
-
-<tspan
-    x="350.0"
-    opacity="0"
->
-    Hi th
-
-    <set
-        attributeName="opacity"
-        to="1"
-        begin="4.840s"
-        dur="0.050s"
-    />
-
-</tspan>
-
-<tspan
-    x="350.0"
-    opacity="0"
->
-    Hi t
-
-    <set
-        attributeName="opacity"
-        to="1"
-        begin="4.890s"
-        dur="0.050s"
-    />
-
-</tspan>
-
-<tspan
-    x="350.0"
-    opacity="0"
->
-    Hi 
-
-    <set
-        attributeName="opacity"
-        to="1"
-        begin="4.940s"
-        dur="0.050s"
-    />
-
-</tspan>
-
-<tspan
-    x="350.0"
-    opacity="0"
->
-    Hi
-
-    <set
-        attributeName="opacity"
-        to="1"
-        begin="4.990s"
-        dur="0.050s"
-    />
-
-</tspan>
-
-<tspan
-    x="350.0"
-    opacity="0"
->
-    H
-
-    <set
-        attributeName="opacity"
-        to="1"
-        begin="5.040s"
-        dur="0.050s"
-    />
-
-</tspan>
-
-<tspan
-    x="350.0"
-    opacity="0"
->
-    
-
-    <set
-        attributeName="opacity"
-        to="1"
-        begin="5.090s"
-        dur="0.550s"
-    />
-
-</tspan>
-
-<tspan
-    x="350.0"
-    opacity="0"
->
-    I
-
-    <set
-        attributeName="opacity"
-        to="1"
-        begin="5.640s"
-        dur="0.080s"
-    />
-
-</tspan>
-
-<tspan
-    x="350.0"
-    opacity="0"
->
-    I&#x27;
-
-    <set
-        attributeName="opacity"
-        to="1"
-        begin="5.720s"
-        dur="0.080s"
-    />
-
-</tspan>
-
-<tspan
-    x="350.0"
-    opacity="0"
->
-    I&#x27;m
-
-    <set
-        attributeName="opacity"
-        to="1"
-        begin="5.800s"
-        dur="0.080s"
-    />
-
-</tspan>
-
-<tspan
-    x="350.0"
-    opacity="0"
->
-    I&#x27;m 
-
-    <set
-        attributeName="opacity"
-        to="1"
-        begin="5.880s"
-        dur="0.080s"
-    />
-
-</tspan>
-
-<tspan
-    x="350.0"
-    opacity="0"
->
-    I&#x27;m a
-
-    <set
-        attributeName="opacity"
-        to="1"
-        begin="5.960s"
-        dur="0.080s"
-    />
-
-</tspan>
-
-<tspan
-    x="350.0"
-    opacity="0"
->
-    I&#x27;m a 
-
-    <set
-        attributeName="opacity"
-        to="1"
-        begin="6.040s"
-        dur="0.080s"
-    />
-
-</tspan>
-
-<tspan
-    x="350.0"
-    opacity="0"
->
-    I&#x27;m a D
-
-    <set
-        attributeName="opacity"
-        to="1"
-        begin="6.120s"
-        dur="0.080s"
-    />
-
-</tspan>
-
-<tspan
-    x="350.0"
-    opacity="0"
->
-    I&#x27;m a De
-
-    <set
-        attributeName="opacity"
-        to="1"
-        begin="6.200s"
-        dur="0.080s"
-    />
-
-</tspan>
-
-<tspan
-    x="350.0"
-    opacity="0"
->
-    I&#x27;m a Dev
-
-    <set
-        attributeName="opacity"
-        to="1"
-        begin="6.280s"
-        dur="0.080s"
-    />
-
-</tspan>
-
-<tspan
-    x="350.0"
-    opacity="0"
->
-    I&#x27;m a Deve
-
-    <set
-        attributeName="opacity"
-        to="1"
-        begin="6.360s"
-        dur="0.080s"
-    />
-
-</tspan>
-
-<tspan
-    x="350.0"
-    opacity="0"
->
-    I&#x27;m a Devel
-
-    <set
-        attributeName="opacity"
-        to="1"
-        begin="6.440s"
-        dur="0.080s"
-    />
-
-</tspan>
-
-<tspan
-    x="350.0"
-    opacity="0"
->
-    I&#x27;m a Develo
-
-    <set
-        attributeName="opacity"
-        to="1"
-        begin="6.520s"
-        dur="0.080s"
-    />
-
-</tspan>
-
-<tspan
-    x="350.0"
-    opacity="0"
->
-    I&#x27;m a Develop
-
-    <set
-        attributeName="opacity"
-        to="1"
-        begin="6.600s"
-        dur="0.080s"
-    />
-
-</tspan>
-
-<tspan
-    x="350.0"
-    opacity="0"
->
-    I&#x27;m a Develope
-
-    <set
-        attributeName="opacity"
-        to="1"
-        begin="6.680s"
-        dur="0.080s"
-    />
-
-</tspan>
-
-<tspan
-    x="350.0"
-    opacity="0"
->
-    I&#x27;m a Developer
-
-    <set
-        attributeName="opacity"
-        to="1"
-        begin="6.760s"
-        dur="0.080s"
-    />
-
-</tspan>
-
-<tspan
-    x="350.0"
-    opacity="0"
->
-    I&#x27;m a Developer 
-
-    <set
-        attributeName="opacity"
-        to="1"
-        begin="6.840s"
-        dur="0.080s"
-    />
-
-</tspan>
-
-<tspan
-    x="350.0"
-    opacity="0"
->
-    I&#x27;m a Developer 👨
-
-    <set
-        attributeName="opacity"
-        to="1"
-        begin="6.920s"
-        dur="0.080s"
-    />
-
-</tspan>
-
-<tspan
-    x="350.0"
-    opacity="0"
->
-    I&#x27;m a Developer 👨‍
-
-    <set
-        attributeName="opacity"
-        to="1"
-        begin="7.000s"
-        dur="0.080s"
-    />
-
-</tspan>
-
-<tspan
-    x="350.0"
-    opacity="0"
->
-    I&#x27;m a Developer 👨‍💻
-
-    <set
-        attributeName="opacity"
-        to="1"
-        begin="7.080s"
-        dur="1.580s"
-    />
-
-</tspan>
-
-<tspan
-    x="350.0"
-    opacity="0"
->
-    I&#x27;m a Developer 👨‍
-
-    <set
-        attributeName="opacity"
-        to="1"
-        begin="8.660s"
-        dur="0.050s"
-    />
-
-</tspan>
-
-<tspan
-    x="350.0"
-    opacity="0"
->
-    I&#x27;m a Developer 👨
-
-    <set
-        attributeName="opacity"
-        to="1"
-        begin="8.710s"
-        dur="0.050s"
-    />
-
-</tspan>
-
-<tspan
-    x="350.0"
-    opacity="0"
->
-    I&#x27;m a Developer 
-
-    <set
-        attributeName="opacity"
-        to="1"
-        begin="8.760s"
-        dur="0.050s"
-    />
-
-</tspan>
-
-<tspan
-    x="350.0"
-    opacity="0"
->
-    I&#x27;m a Developer
-
-    <set
-        attributeName="opacity"
-        to="1"
-        begin="8.810s"
-        dur="0.050s"
-    />
-
-</tspan>
-
-<tspan
-    x="350.0"
-    opacity="0"
->
-    I&#x27;m a Develope
-
-    <set
-        attributeName="opacity"
-        to="1"
-        begin="8.860s"
-        dur="0.050s"
-    />
-
-</tspan>
-
-<tspan
-    x="350.0"
-    opacity="0"
->
-    I&#x27;m a Develop
-
-    <set
-        attributeName="opacity"
-        to="1"
-        begin="8.910s"
-        dur="0.050s"
-    />
-
-</tspan>
-
-<tspan
-    x="350.0"
-    opacity="0"
->
-    I&#x27;m a Develo
-
-    <set
-        attributeName="opacity"
-        to="1"
-        begin="8.960s"
-        dur="0.050s"
-    />
-
-</tspan>
-
-<tspan
-    x="350.0"
-    opacity="0"
->
-    I&#x27;m a Devel
-
-    <set
-        attributeName="opacity"
-        to="1"
-        begin="9.010s"
-        dur="0.050s"
-    />
-
-</tspan>
-
-<tspan
-    x="350.0"
-    opacity="0"
->
-    I&#x27;m a Deve
-
-    <set
-        attributeName="opacity"
-        to="1"
-        begin="9.060s"
-        dur="0.050s"
-    />
-
-</tspan>
-
-<tspan
-    x="350.0"
-    opacity="0"
->
-    I&#x27;m a Dev
-
-    <set
-        attributeName="opacity"
-        to="1"
-        begin="9.110s"
-        dur="0.050s"
-    />
-
-</tspan>
-
-<tspan
-    x="350.0"
-    opacity="0"
->
-    I&#x27;m a De
-
-    <set
-        attributeName="opacity"
-        to="1"
-        begin="9.160s"
-        dur="0.050s"
-    />
-
-</tspan>
-
-<tspan
-    x="350.0"
-    opacity="0"
->
-    I&#x27;m a D
-
-    <set
-        attributeName="opacity"
-        to="1"
-        begin="9.210s"
-        dur="0.050s"
-    />
-
-</tspan>
-
-<tspan
-    x="350.0"
-    opacity="0"
->
-    I&#x27;m a 
-
-    <set
-        attributeName="opacity"
-        to="1"
-        begin="9.260s"
-        dur="0.050s"
-    />
-
-</tspan>
-
-<tspan
-    x="350.0"
-    opacity="0"
->
-    I&#x27;m a
-
-    <set
-        attributeName="opacity"
-        to="1"
-        begin="9.310s"
-        dur="0.050s"
-    />
-
-</tspan>
-
-<tspan
-    x="350.0"
-    opacity="0"
->
-    I&#x27;m 
-
-    <set
-        attributeName="opacity"
-        to="1"
-        begin="9.360s"
-        dur="0.050s"
-    />
-
-</tspan>
-
-<tspan
-    x="350.0"
-    opacity="0"
->
-    I&#x27;m
-
-    <set
-        attributeName="opacity"
-        to="1"
-        begin="9.410s"
-        dur="0.050s"
-    />
-
-</tspan>
-
-<tspan
-    x="350.0"
-    opacity="0"
->
-    I&#x27;
-
-    <set
-        attributeName="opacity"
-        to="1"
-        begin="9.460s"
-        dur="0.050s"
-    />
-
-</tspan>
-
-<tspan
-    x="350.0"
+    x="777.6"
+    y="20"
+    text-anchor="start"
     opacity="0"
 >
-    I
 
     <set
         attributeName="opacity"
         to="1"
-        begin="9.510s"
-        dur="0.050s"
+        begin="19.45s"
+        dur="0.001s"
+        fill="freeze"
     />
 
-</tspan>
+    👋
 
-<tspan
-    x="350.0"
-    opacity="0"
->
-    
-
-    <set
-        attributeName="opacity"
-        to="1"
-        begin="9.560s"
-        dur="0.550s"
+    <animateTransform
+        attributeName="transform"
+        type="rotate"
+        values="-20 787.6 20;
+                20 787.6 20;
+                -20 787.6 20"
+        dur="0.5s"
+        repeatCount="indefinite"
     />
-
-</tspan>
-
-
-<animate
-    attributeName="opacity"
-    values="1;1"
-    dur="10.110s"
-    repeatCount="indefinite"
-/>
 
 </text>
 
