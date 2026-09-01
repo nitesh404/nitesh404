@@ -1,4 +1,3 @@
-```python
 import html
 
 TEXT = "Hi there! I'm Nitesh 👋|<<<<<<<< a Developer 👨‍💻"
