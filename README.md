@@ -22,13 +22,8 @@
   <!-- Social Icons -->
 
   <div align="center">
-    <a href="https://www.linkedin.com/in/niteshk15252">
-      <img
-        src="https://raw.githubusercontent.com/nitesh404/nitesh404/main/icons/linkedin-black.svg"
-        width="28"
-        alt="LinkedIn"
-      >
-    </a>
+      <a href="https://www.linkedin.com/in/niteshk15252/#gh-light-mode-only"><img src="icons/linkedin-black.svg" alt="LinkedIn"></a>
+    <a href="https://www.linkedin.com/in/niteshk15252/#gh-dark-mode-only"><img src="icons/linkedin-white.svg" alt="LinkedIn"></a>
     &nbsp;&nbsp;&nbsp;
 
 
