@@ -13,7 +13,7 @@ def build_svg_animation(text: str) -> str:
     frames = []
     current_time = 0.0
 
-    # Build every typing/backspace state
+    # Build all typing/backspace states
     for idx, char in enumerate(text):
         if char == "|":
             continue
@@ -23,49 +23,69 @@ def build_svg_animation(text: str) -> str:
         else:
             visible += char
 
-        # Pause after "|"
-        pause = (
+        is_pause = (
             idx + 1 < len(text)
             and text[idx + 1] == "|"
         )
 
-        duration = 1.0 if pause else 0.15
+        delay = 1.0 if is_pause else 0.15
 
-        frames.append(
-            (current_time, duration, visible)
+        frames.append({
+            "time": current_time,
+            "duration": delay,
+            "text": visible,
+        })
+
+        current_time += delay
+
+    # Time to wait before restarting
+    restart_pause = 2.0
+    cycle = current_time + restart_pause
+
+    lines = []
+
+    for frame in frames:
+        start = frame["time"]
+        duration = frame["duration"]
+        end = start + duration
+
+        # Use one repeating opacity animation per frame.
+        values = "0;1;1;0"
+
+        key_times = (
+            f"0;"
+            f"{start / cycle:.6f};"
+            f"{(start + 0.001) / cycle:.6f};"
+            f"{end / cycle:.6f}"
         )
 
-        current_time += duration
+        lines.append(f"""
+        <text
+            x="0"
+            y="{font_size}"
+            opacity="0">
 
-    # Time to wait before starting again
-    restart_delay = 2.0
-    cycle_duration = current_time + restart_delay
+            {html.escape(frame["text"])}
 
-    # Create one animated text element.
-    # The text content itself changes using <animate>.
-    values = []
-    key_times = []
+            <animate
+                attributeName="opacity"
+                values="{values}"
+                keyTimes="{key_times}"
+                dur="{cycle:.3f}s"
+                repeatCount="indefinite"
+            />
 
-    for start, duration, value in frames:
-        values.append(html.escape(value))
-        key_times.append(start / cycle_duration)
+        </text>
+        """)
 
-    # Add the final frame
-    values.append(html.escape(visible))
-    key_times.append(current_time / cycle_duration)
-
-    values_str = ";".join(values)
-    key_times_str = ";".join(
-        f"{x:.5f}" for x in key_times
-    )
-
-    # Position of waving hand
+    # Waving emoji
     emoji_x = len(visible) * font_size * 0.48
     pivot_x = emoji_x + 10
     pivot_y = font_size
 
-    svg = f"""<?xml version="1.0" encoding="UTF-8"?>
+    emoji_start = current_time
 
+    svg = f"""<?xml version="1.0" encoding="UTF-8"?>
 <svg
     width="{width}"
     height="{height}"
@@ -87,25 +107,8 @@ def build_svg_animation(text: str) -> str:
         }}
     </style>
 
-    <!--
-        Complete typing animation.
-        The entire sequence repeats forever.
-    -->
-
-    <text
-        x="0"
-        y="{font_size}"
-        opacity="1">
-
-        <animate
-            attributeName="textContent"
-            values="{values_str}"
-            keyTimes="{key_times_str}"
-            dur="{cycle_duration:.3f}s"
-            repeatCount="indefinite"
-        />
-
-    </text>
+    <!-- Typing animation -->
+    {''.join(lines)}
 
     <!-- Waving hand -->
     <text
@@ -115,10 +118,18 @@ def build_svg_animation(text: str) -> str:
 
         👋
 
-        <set
+        <animate
             attributeName="opacity"
-            to="1"
-            begin="{current_time:.3f}s"
+            values="0;0;1;1;0"
+            keyTimes="
+                0;
+                {emoji_start / cycle:.6f};
+                {(emoji_start + 0.001) / cycle:.6f};
+                {(emoji_start + 1.5) / cycle:.6f};
+                {(emoji_start + 1.501) / cycle:.6f}
+            "
+            dur="{cycle:.3f}s"
+            repeatCount="indefinite"
         />
 
         <animateTransform
@@ -151,4 +162,3 @@ def save_svg(filename: str, content: str):
 if __name__ == "__main__":
     svg_content = build_svg_animation(TEXT)
     save_svg(FILENAME, svg_content)
-```
