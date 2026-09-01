@@ -23,8 +23,8 @@
 <div align="center">
 
   <a href="https://www.linkedin.com/in/niteshk15252/">
-    <img src="icons/linkedin-black.svg#gh-light-mode-only" alt="LinkedIn">
-    <img src="icons/linkedin-white.svg#gh-dark-mode-only" alt="LinkedIn">
+    <img src="icons/linkedin-black.svg#gh-light-mode-only" width="28" alt="LinkedIn">
+    <img src="icons/linkedin-white.svg#gh-dark-mode-only" width="28" alt="LinkedIn">
   </a>
   &nbsp;&nbsp;&nbsp;
 
