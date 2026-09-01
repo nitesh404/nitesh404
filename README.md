@@ -18,39 +18,44 @@
     <samp>@nitesh404</samp>
   </h4>
 
-  <div>
+  <!-- Social Icons -->
+
   <div align="center">
+    <a href="https://www.linkedin.com/in/niteshk15252">
+      <picture>
+        <source media="(prefers-color-scheme: dark)" srcset="./icons/linkedin-white.svg">
+        <img src="./icons/linkedin-black.svg" width="28" alt="LinkedIn">
+      </picture>
+    </a>
 
-  <a href="https://www.linkedin.com/in/niteshk15252">
-    <picture>
-      <source media="(prefers-color-scheme: dark)" srcset="./icons/linkedin-white.svg">
-      <img src="./icons/linkedin-black.svg" width="28" alt="LinkedIn">
-    </picture>
-  </a>
+```
+<a href="https://github.com/nitesh404">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="./icons/github-white.svg">
+    <img src="./icons/github-black.svg" width="28" alt="GitHub">
+  </picture>
+</a>
 
-  <a href="https://github.com/nitesh404">
-    <picture>
-      <source media="(prefers-color-scheme: dark)" srcset="./icons/github-white.svg">
-      <img src="./icons/github-black.svg" width="28" alt="GitHub">
-    </picture>
-  </a>
+<a href="mailto:niteshe404@gmail.com">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="./icons/email-white.svg">
+    <img src="./icons/email-black.svg" width="28" alt="Email">
+  </picture>
+</a>
 
-  <a href="mailto:niteshe404@gmail.com">
-    <picture>
-      <source media="(prefers-color-scheme: dark)" srcset="./icons/email-white.svg">
-      <img src="./icons/email-black.svg" width="28" alt="Email">
-    </picture>
-  </a>
+<a href="https://t.me/krpp404">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="./icons/telegram-white.svg">
+    <img src="./icons/telegram-black.svg" width="28" alt="Telegram">
+  </picture>
+</a>
+```
 
-  <a href="https://t.me/krpp404">
-    <picture>
-      <source media="(prefers-color-scheme: dark)" srcset="./icons/telegram-white.svg">
-      <img src="./icons/telegram-black.svg" width="28" alt="Telegram">
-    </picture>
-  </a>
+  </div>
 
-</div>
   <br>
+
+  <!-- Tech Stack -->
 
   <div align="center">
     <samp>
