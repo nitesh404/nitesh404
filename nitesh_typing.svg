@@ -1,2124 +1,258 @@
-<?xml version="1.0" encoding="UTF-8"?>
 
-<svg
-    xmlns="http://www.w3.org/2000/svg"
-    width="500"
-    height="45"
-    viewBox="0 0 500 45"
->
-
-<style>
-
-    .typing {
-        font-family: Arial, sans-serif;
-        font-size: 20px;
-        font-weight: bold;
-        fill: #1F2328;
-    }
-
-    @media (prefers-color-scheme: dark) {
-        .typing {
-            fill: #D1D7E0;
-        }
-    }
-
-</style>
-
-<clipPath id="clip">
-    <rect
-        x="0"
-        y="0"
-        width="500"
-        height="45"
-    />
-</clipPath>
-
-<g clip-path="url(#clip)">
-
-    <text
-        class="typing"
-        x="5"
-        y="30"
-        opacity="0"
-    >
-        H
-
-        <set
-            attributeName="opacity"
-            to="1"
-            begin="0.000s"
-        />
-
-        <set
-            attributeName="opacity"
-            to="0"
-            begin="0.150s"
-        />
-
-    </text>
-
-    <text
-        class="typing"
-        x="5"
-        y="30"
-        opacity="0"
-    >
-        Hi
-
-        <set
-            attributeName="opacity"
-            to="1"
-            begin="0.150s"
-        />
-
-        <set
-            attributeName="opacity"
-            to="0"
-            begin="0.300s"
-        />
-
-    </text>
-
-    <text
-        class="typing"
-        x="5"
-        y="30"
-        opacity="0"
-    >
-        Hi 
-
-        <set
-            attributeName="opacity"
-            to="1"
-            begin="0.300s"
-        />
-
-        <set
-            attributeName="opacity"
-            to="0"
-            begin="0.450s"
-        />
-
-    </text>
-
-    <text
-        class="typing"
-        x="5"
-        y="30"
-        opacity="0"
-    >
-        Hi t
-
-        <set
-            attributeName="opacity"
-            to="1"
-            begin="0.450s"
-        />
-
-        <set
-            attributeName="opacity"
-            to="0"
-            begin="0.600s"
-        />
-
-    </text>
-
-    <text
-        class="typing"
-        x="5"
-        y="30"
-        opacity="0"
-    >
-        Hi th
-
-        <set
-            attributeName="opacity"
-            to="1"
-            begin="0.600s"
-        />
-
-        <set
-            attributeName="opacity"
-            to="0"
-            begin="0.750s"
-        />
-
-    </text>
-
-    <text
-        class="typing"
-        x="5"
-        y="30"
-        opacity="0"
-    >
-        Hi the
-
-        <set
-            attributeName="opacity"
-            to="1"
-            begin="0.750s"
-        />
-
-        <set
-            attributeName="opacity"
-            to="0"
-            begin="0.900s"
-        />
-
-    </text>
-
-    <text
-        class="typing"
-        x="5"
-        y="30"
-        opacity="0"
-    >
-        Hi ther
-
-        <set
-            attributeName="opacity"
-            to="1"
-            begin="0.900s"
-        />
-
-        <set
-            attributeName="opacity"
-            to="0"
-            begin="1.050s"
-        />
-
-    </text>
-
-    <text
-        class="typing"
-        x="5"
-        y="30"
-        opacity="0"
-    >
-        Hi there
-
-        <set
-            attributeName="opacity"
-            to="1"
-            begin="1.050s"
-        />
-
-        <set
-            attributeName="opacity"
-            to="0"
-            begin="1.200s"
-        />
-
-    </text>
-
-    <text
-        class="typing"
-        x="5"
-        y="30"
-        opacity="0"
-    >
-        Hi there!
-
-        <set
-            attributeName="opacity"
-            to="1"
-            begin="1.200s"
-        />
-
-        <set
-            attributeName="opacity"
-            to="0"
-            begin="1.350s"
-        />
-
-    </text>
-
-    <text
-        class="typing"
-        x="5"
-        y="30"
-        opacity="0"
-    >
-        Hi there! 
-
-        <set
-            attributeName="opacity"
-            to="1"
-            begin="1.350s"
-        />
-
-        <set
-            attributeName="opacity"
-            to="0"
-            begin="1.500s"
-        />
-
-    </text>
-
-    <text
-        class="typing"
-        x="5"
-        y="30"
-        opacity="0"
-    >
-        Hi there! I
-
-        <set
-            attributeName="opacity"
-            to="1"
-            begin="1.500s"
-        />
-
-        <set
-            attributeName="opacity"
-            to="0"
-            begin="1.650s"
-        />
-
-    </text>
-
-    <text
-        class="typing"
-        x="5"
-        y="30"
-        opacity="0"
-    >
-        Hi there! I'
-
-        <set
-            attributeName="opacity"
-            to="1"
-            begin="1.650s"
-        />
-
-        <set
-            attributeName="opacity"
-            to="0"
-            begin="1.800s"
-        />
-
-    </text>
-
-    <text
-        class="typing"
-        x="5"
-        y="30"
-        opacity="0"
-    >
-        Hi there! I'm
-
-        <set
-            attributeName="opacity"
-            to="1"
-            begin="1.800s"
-        />
-
-        <set
-            attributeName="opacity"
-            to="0"
-            begin="1.950s"
-        />
-
-    </text>
-
-    <text
-        class="typing"
-        x="5"
-        y="30"
-        opacity="0"
-    >
-        Hi there! I'm 
-
-        <set
-            attributeName="opacity"
-            to="1"
-            begin="1.950s"
-        />
-
-        <set
-            attributeName="opacity"
-            to="0"
-            begin="2.100s"
-        />
-
-    </text>
-
-    <text
-        class="typing"
-        x="5"
-        y="30"
-        opacity="0"
-    >
-        Hi there! I'm N
-
-        <set
-            attributeName="opacity"
-            to="1"
-            begin="2.100s"
-        />
-
-        <set
-            attributeName="opacity"
-            to="0"
-            begin="2.250s"
-        />
-
-    </text>
-
-    <text
-        class="typing"
-        x="5"
-        y="30"
-        opacity="0"
-    >
-        Hi there! I'm Ni
-
-        <set
-            attributeName="opacity"
-            to="1"
-            begin="2.250s"
-        />
-
-        <set
-            attributeName="opacity"
-            to="0"
-            begin="2.400s"
-        />
-
-    </text>
-
-    <text
-        class="typing"
-        x="5"
-        y="30"
-        opacity="0"
-    >
-        Hi there! I'm Nit
-
-        <set
-            attributeName="opacity"
-            to="1"
-            begin="2.400s"
-        />
-
-        <set
-            attributeName="opacity"
-            to="0"
-            begin="2.550s"
-        />
-
-    </text>
-
-    <text
-        class="typing"
-        x="5"
-        y="30"
-        opacity="0"
-    >
-        Hi there! I'm Nite
-
-        <set
-            attributeName="opacity"
-            to="1"
-            begin="2.550s"
-        />
-
-        <set
-            attributeName="opacity"
-            to="0"
-            begin="2.700s"
-        />
-
-    </text>
-
-    <text
-        class="typing"
-        x="5"
-        y="30"
-        opacity="0"
-    >
-        Hi there! I'm Nites
-
-        <set
-            attributeName="opacity"
-            to="1"
-            begin="2.700s"
-        />
-
-        <set
-            attributeName="opacity"
-            to="0"
-            begin="2.850s"
-        />
-
-    </text>
-
-    <text
-        class="typing"
-        x="5"
-        y="30"
-        opacity="0"
-    >
-        Hi there! I'm Nitesh
-
-        <set
-            attributeName="opacity"
-            to="1"
-            begin="2.850s"
-        />
-
-        <set
-            attributeName="opacity"
-            to="0"
-            begin="3.000s"
-        />
-
-    </text>
-
-    <text
-        class="typing"
-        x="5"
-        y="30"
-        opacity="0"
-    >
-        Hi there! I'm Nitesh 
-
-        <set
-            attributeName="opacity"
-            to="1"
-            begin="3.000s"
-        />
-
-        <set
-            attributeName="opacity"
-            to="0"
-            begin="3.150s"
-        />
-
-    </text>
-
-    <text
-        class="typing"
-        x="5"
-        y="30"
-        opacity="0"
-    >
-        Hi there! I'm Nitesh K
-
-        <set
-            attributeName="opacity"
-            to="1"
-            begin="3.150s"
-        />
-
-        <set
-            attributeName="opacity"
-            to="0"
-            begin="3.300s"
-        />
-
-    </text>
-
-    <text
-        class="typing"
-        x="5"
-        y="30"
-        opacity="0"
-    >
-        Hi there! I'm Nitesh Ku
-
-        <set
-            attributeName="opacity"
-            to="1"
-            begin="3.300s"
-        />
-
-        <set
-            attributeName="opacity"
-            to="0"
-            begin="3.450s"
-        />
-
-    </text>
-
-    <text
-        class="typing"
-        x="5"
-        y="30"
-        opacity="0"
-    >
-        Hi there! I'm Nitesh Kum
-
-        <set
-            attributeName="opacity"
-            to="1"
-            begin="3.450s"
-        />
-
-        <set
-            attributeName="opacity"
-            to="0"
-            begin="3.600s"
-        />
-
-    </text>
-
-    <text
-        class="typing"
-        x="5"
-        y="30"
-        opacity="0"
-    >
-        Hi there! I'm Nitesh Kuma
-
-        <set
-            attributeName="opacity"
-            to="1"
-            begin="3.600s"
-        />
-
-        <set
-            attributeName="opacity"
-            to="0"
-            begin="3.750s"
-        />
-
-    </text>
-
-    <text
-        class="typing"
-        x="5"
-        y="30"
-        opacity="0"
-    >
-        Hi there! I'm Nitesh Kumar
-
-        <set
-            attributeName="opacity"
-            to="1"
-            begin="3.750s"
-        />
-
-        <set
-            attributeName="opacity"
-            to="0"
-            begin="3.900s"
-        />
-
-    </text>
-
-    <text
-        class="typing"
-        x="5"
-        y="30"
-        opacity="0"
-    >
-        Hi there! I'm Nitesh Kumar 
-
-        <set
-            attributeName="opacity"
-            to="1"
-            begin="3.900s"
-        />
-
-        <set
-            attributeName="opacity"
-            to="0"
-            begin="4.050s"
-        />
-
-    </text>
-
-    <text
-        class="typing"
-        x="5"
-        y="30"
-        opacity="0"
-    >
-        Hi there! I'm Nitesh Kumar 👋
-
-        <set
-            attributeName="opacity"
-            to="1"
-            begin="4.050s"
-        />
-
-        <set
-            attributeName="opacity"
-            to="0"
-            begin="5.700s"
-        />
-
-    </text>
-
-    <text
-        class="typing"
-        x="5"
-        y="30"
-        opacity="0"
-    >
-        Hi there! I'm Nitesh Kumar 
-
-        <set
-            attributeName="opacity"
-            to="1"
-            begin="5.700s"
-        />
-
-        <set
-            attributeName="opacity"
-            to="0"
-            begin="5.800s"
-        />
-
-    </text>
-
-    <text
-        class="typing"
-        x="5"
-        y="30"
-        opacity="0"
-    >
-        Hi there! I'm Nitesh Kumar
-
-        <set
-            attributeName="opacity"
-            to="1"
-            begin="5.800s"
-        />
-
-        <set
-            attributeName="opacity"
-            to="0"
-            begin="5.900s"
-        />
-
-    </text>
-
-    <text
-        class="typing"
-        x="5"
-        y="30"
-        opacity="0"
-    >
-        Hi there! I'm Nitesh Kuma
-
-        <set
-            attributeName="opacity"
-            to="1"
-            begin="5.900s"
-        />
-
-        <set
-            attributeName="opacity"
-            to="0"
-            begin="6.000s"
-        />
-
-    </text>
-
-    <text
-        class="typing"
-        x="5"
-        y="30"
-        opacity="0"
-    >
-        Hi there! I'm Nitesh Kum
-
-        <set
-            attributeName="opacity"
-            to="1"
-            begin="6.000s"
-        />
-
-        <set
-            attributeName="opacity"
-            to="0"
-            begin="6.100s"
-        />
-
-    </text>
-
-    <text
-        class="typing"
-        x="5"
-        y="30"
-        opacity="0"
-    >
-        Hi there! I'm Nitesh Ku
-
-        <set
-            attributeName="opacity"
-            to="1"
-            begin="6.100s"
-        />
-
-        <set
-            attributeName="opacity"
-            to="0"
-            begin="6.200s"
-        />
-
-    </text>
-
-    <text
-        class="typing"
-        x="5"
-        y="30"
-        opacity="0"
-    >
-        Hi there! I'm Nitesh K
-
-        <set
-            attributeName="opacity"
-            to="1"
-            begin="6.200s"
-        />
-
-        <set
-            attributeName="opacity"
-            to="0"
-            begin="6.300s"
-        />
-
-    </text>
-
-    <text
-        class="typing"
-        x="5"
-        y="30"
-        opacity="0"
-    >
-        Hi there! I'm Nitesh 
-
-        <set
-            attributeName="opacity"
-            to="1"
-            begin="6.300s"
-        />
-
-        <set
-            attributeName="opacity"
-            to="0"
-            begin="6.400s"
-        />
-
-    </text>
-
-    <text
-        class="typing"
-        x="5"
-        y="30"
-        opacity="0"
-    >
-        Hi there! I'm Nitesh
-
-        <set
-            attributeName="opacity"
-            to="1"
-            begin="6.400s"
-        />
-
-        <set
-            attributeName="opacity"
-            to="0"
-            begin="6.500s"
-        />
-
-    </text>
-
-    <text
-        class="typing"
-        x="5"
-        y="30"
-        opacity="0"
-    >
-        Hi there! I'm Nites
-
-        <set
-            attributeName="opacity"
-            to="1"
-            begin="6.500s"
-        />
-
-        <set
-            attributeName="opacity"
-            to="0"
-            begin="6.600s"
-        />
-
-    </text>
-
-    <text
-        class="typing"
-        x="5"
-        y="30"
-        opacity="0"
-    >
-        Hi there! I'm Nite
-
-        <set
-            attributeName="opacity"
-            to="1"
-            begin="6.600s"
-        />
-
-        <set
-            attributeName="opacity"
-            to="0"
-            begin="6.700s"
-        />
-
-    </text>
-
-    <text
-        class="typing"
-        x="5"
-        y="30"
-        opacity="0"
-    >
-        Hi there! I'm Nit
-
-        <set
-            attributeName="opacity"
-            to="1"
-            begin="6.700s"
-        />
-
-        <set
-            attributeName="opacity"
-            to="0"
-            begin="6.800s"
-        />
-
-    </text>
-
-    <text
-        class="typing"
-        x="5"
-        y="30"
-        opacity="0"
-    >
-        Hi there! I'm Ni
-
-        <set
-            attributeName="opacity"
-            to="1"
-            begin="6.800s"
-        />
-
-        <set
-            attributeName="opacity"
-            to="0"
-            begin="6.900s"
-        />
-
-    </text>
-
-    <text
-        class="typing"
-        x="5"
-        y="30"
-        opacity="0"
-    >
-        Hi there! I'm N
-
-        <set
-            attributeName="opacity"
-            to="1"
-            begin="6.900s"
-        />
-
-        <set
-            attributeName="opacity"
-            to="0"
-            begin="7.000s"
-        />
-
-    </text>
-
-    <text
-        class="typing"
-        x="5"
-        y="30"
-        opacity="0"
-    >
-        Hi there! I'm 
-
-        <set
-            attributeName="opacity"
-            to="1"
-            begin="7.000s"
-        />
-
-        <set
-            attributeName="opacity"
-            to="0"
-            begin="7.100s"
-        />
-
-    </text>
-
-    <text
-        class="typing"
-        x="5"
-        y="30"
-        opacity="0"
-    >
-        Hi there! I'm
-
-        <set
-            attributeName="opacity"
-            to="1"
-            begin="7.100s"
-        />
-
-        <set
-            attributeName="opacity"
-            to="0"
-            begin="7.200s"
-        />
-
-    </text>
-
-    <text
-        class="typing"
-        x="5"
-        y="30"
-        opacity="0"
-    >
-        Hi there! I'
-
-        <set
-            attributeName="opacity"
-            to="1"
-            begin="7.200s"
-        />
-
-        <set
-            attributeName="opacity"
-            to="0"
-            begin="7.300s"
-        />
-
-    </text>
-
-    <text
-        class="typing"
-        x="5"
-        y="30"
-        opacity="0"
-    >
-        Hi there! I
-
-        <set
-            attributeName="opacity"
-            to="1"
-            begin="7.300s"
-        />
-
-        <set
-            attributeName="opacity"
-            to="0"
-            begin="7.400s"
-        />
-
-    </text>
-
-    <text
-        class="typing"
-        x="5"
-        y="30"
-        opacity="0"
-    >
-        Hi there! 
-
-        <set
-            attributeName="opacity"
-            to="1"
-            begin="7.400s"
-        />
-
-        <set
-            attributeName="opacity"
-            to="0"
-            begin="7.500s"
-        />
-
-    </text>
-
-    <text
-        class="typing"
-        x="5"
-        y="30"
-        opacity="0"
-    >
-        Hi there!
-
-        <set
-            attributeName="opacity"
-            to="1"
-            begin="7.500s"
-        />
-
-        <set
-            attributeName="opacity"
-            to="0"
-            begin="7.600s"
-        />
-
-    </text>
-
-    <text
-        class="typing"
-        x="5"
-        y="30"
-        opacity="0"
-    >
-        Hi there
-
-        <set
-            attributeName="opacity"
-            to="1"
-            begin="7.600s"
-        />
-
-        <set
-            attributeName="opacity"
-            to="0"
-            begin="7.700s"
-        />
-
-    </text>
-
-    <text
-        class="typing"
-        x="5"
-        y="30"
-        opacity="0"
-    >
-        Hi ther
-
-        <set
-            attributeName="opacity"
-            to="1"
-            begin="7.700s"
-        />
-
-        <set
-            attributeName="opacity"
-            to="0"
-            begin="7.800s"
-        />
-
-    </text>
-
-    <text
-        class="typing"
-        x="5"
-        y="30"
-        opacity="0"
-    >
-        Hi the
-
-        <set
-            attributeName="opacity"
-            to="1"
-            begin="7.800s"
-        />
-
-        <set
-            attributeName="opacity"
-            to="0"
-            begin="7.900s"
-        />
-
-    </text>
-
-    <text
-        class="typing"
-        x="5"
-        y="30"
-        opacity="0"
-    >
-        Hi th
-
-        <set
-            attributeName="opacity"
-            to="1"
-            begin="7.900s"
-        />
-
-        <set
-            attributeName="opacity"
-            to="0"
-            begin="8.000s"
-        />
-
-    </text>
-
-    <text
-        class="typing"
-        x="5"
-        y="30"
-        opacity="0"
-    >
-        Hi t
-
-        <set
-            attributeName="opacity"
-            to="1"
-            begin="8.000s"
-        />
-
-        <set
-            attributeName="opacity"
-            to="0"
-            begin="8.100s"
-        />
-
-    </text>
-
-    <text
-        class="typing"
-        x="5"
-        y="30"
-        opacity="0"
-    >
-        Hi 
-
-        <set
-            attributeName="opacity"
-            to="1"
-            begin="8.100s"
-        />
-
-        <set
-            attributeName="opacity"
-            to="0"
-            begin="8.200s"
-        />
-
-    </text>
-
-    <text
-        class="typing"
-        x="5"
-        y="30"
-        opacity="0"
-    >
-        Hi
-
-        <set
-            attributeName="opacity"
-            to="1"
-            begin="8.200s"
-        />
-
-        <set
-            attributeName="opacity"
-            to="0"
-            begin="8.300s"
-        />
-
-    </text>
-
-    <text
-        class="typing"
-        x="5"
-        y="30"
-        opacity="0"
-    >
-        H
-
-        <set
-            attributeName="opacity"
-            to="1"
-            begin="8.300s"
-        />
-
-        <set
-            attributeName="opacity"
-            to="0"
-            begin="8.400s"
-        />
-
-    </text>
-
-    <text
-        class="typing"
-        x="5"
-        y="30"
-        opacity="0"
-    >
+    <svg width="210" height="30" xmlns="http://www.w3.org/2000/svg">
+        <!-- Made as a joke by brenocq, people get my name wrong all the same at Starbucks -->
+        <style>
+            text {
+                font-family: Arial, sans-serif;
+                font-weight: bold;
+                font-size: 20px;
+                fill: #1F2328;
+                opacity: 0;
+            }
+            @media (prefers-color-scheme: dark) {
+                text {
+                    fill: #D1D7E0;
+                }
+            }
+        </style>
+
+        <!-- Typing text -->
+        
+        <text x="0" y="20" text-anchor="start" opacity="0">
+            <set attributeName="opacity" to="1" begin="0s" dur="0.15" fill="remove" />
+            H
+        </text>
+        
+        <text x="0" y="20" text-anchor="start" opacity="0">
+            <set attributeName="opacity" to="1" begin="0.15s" dur="0.15" fill="remove" />
+            Hi
+        </text>
+        
+        <text x="0" y="20" text-anchor="start" opacity="0">
+            <set attributeName="opacity" to="1" begin="0.3s" dur="0.15" fill="remove" />
+            Hi 
+        </text>
+        
+        <text x="0" y="20" text-anchor="start" opacity="0">
+            <set attributeName="opacity" to="1" begin="0.45s" dur="0.15" fill="remove" />
+            Hi t
+        </text>
+        
+        <text x="0" y="20" text-anchor="start" opacity="0">
+            <set attributeName="opacity" to="1" begin="0.6s" dur="0.15" fill="remove" />
+            Hi th
+        </text>
+        
+        <text x="0" y="20" text-anchor="start" opacity="0">
+            <set attributeName="opacity" to="1" begin="0.75s" dur="0.15" fill="remove" />
+            Hi the
+        </text>
+        
+        <text x="0" y="20" text-anchor="start" opacity="0">
+            <set attributeName="opacity" to="1" begin="0.9s" dur="0.15" fill="remove" />
+            Hi ther
+        </text>
+        
+        <text x="0" y="20" text-anchor="start" opacity="0">
+            <set attributeName="opacity" to="1" begin="1.05s" dur="0.15" fill="remove" />
+            Hi there
+        </text>
+        
+        <text x="0" y="20" text-anchor="start" opacity="0">
+            <set attributeName="opacity" to="1" begin="1.2s" dur="0.15" fill="remove" />
+            Hi there!
+        </text>
+        
+        <text x="0" y="20" text-anchor="start" opacity="0">
+            <set attributeName="opacity" to="1" begin="1.35s" dur="0.15" fill="remove" />
+            Hi there! 
+        </text>
+        
+        <text x="0" y="20" text-anchor="start" opacity="0">
+            <set attributeName="opacity" to="1" begin="1.5s" dur="0.15" fill="remove" />
+            Hi there! I
+        </text>
+        
+        <text x="0" y="20" text-anchor="start" opacity="0">
+            <set attributeName="opacity" to="1" begin="1.65s" dur="0.15" fill="remove" />
+            Hi there! I'
+        </text>
+        
+        <text x="0" y="20" text-anchor="start" opacity="0">
+            <set attributeName="opacity" to="1" begin="1.8s" dur="0.15" fill="remove" />
+            Hi there! I'm
+        </text>
+        
+        <text x="0" y="20" text-anchor="start" opacity="0">
+            <set attributeName="opacity" to="1" begin="1.95s" dur="0.15" fill="remove" />
+            Hi there! I'm 
+        </text>
+        
+        <text x="0" y="20" text-anchor="start" opacity="0">
+            <set attributeName="opacity" to="1" begin="2.1s" dur="0.15" fill="remove" />
+            Hi there! I'm N
+        </text>
+        
+        <text x="0" y="20" text-anchor="start" opacity="0">
+            <set attributeName="opacity" to="1" begin="2.25s" dur="0.15" fill="remove" />
+            Hi there! I'm Ni
+        </text>
+        
+        <text x="0" y="20" text-anchor="start" opacity="0">
+            <set attributeName="opacity" to="1" begin="2.4s" dur="0.15" fill="remove" />
+            Hi there! I'm Nit
+        </text>
+        
+        <text x="0" y="20" text-anchor="start" opacity="0">
+            <set attributeName="opacity" to="1" begin="2.55s" dur="0.15" fill="remove" />
+            Hi there! I'm Nite
+        </text>
+        
+        <text x="0" y="20" text-anchor="start" opacity="0">
+            <set attributeName="opacity" to="1" begin="2.7s" dur="0.15" fill="remove" />
+            Hi there! I'm Nites
+        </text>
+        
+        <text x="0" y="20" text-anchor="start" opacity="0">
+            <set attributeName="opacity" to="1" begin="2.85s" dur="0.15" fill="remove" />
+            Hi there! I'm Nitesh
+        </text>
+        
+        <text x="0" y="20" text-anchor="start" opacity="0">
+            <set attributeName="opacity" to="1" begin="3.0s" dur="0.15" fill="remove" />
+            Hi there! I'm Nitesh 
+        </text>
+        
+        <text x="0" y="20" text-anchor="start" opacity="0">
+            <set attributeName="opacity" to="1" begin="3.15s" dur="1.0" fill="remove" />
+            Hi there! I'm Nitesh 👋
+        </text>
+        
+        <text x="0" y="20" text-anchor="start" opacity="0">
+            <set attributeName="opacity" to="1" begin="4.15s" dur="0.15" fill="remove" />
+            Hi there! I'm Nitesh 
+        </text>
+        
+        <text x="0" y="20" text-anchor="start" opacity="0">
+            <set attributeName="opacity" to="1" begin="4.3s" dur="0.15" fill="remove" />
+            Hi there! I'm Nitesh
+        </text>
+        
+        <text x="0" y="20" text-anchor="start" opacity="0">
+            <set attributeName="opacity" to="1" begin="4.45s" dur="0.15" fill="remove" />
+            Hi there! I'm Nites
+        </text>
+        
+        <text x="0" y="20" text-anchor="start" opacity="0">
+            <set attributeName="opacity" to="1" begin="4.6s" dur="0.15" fill="remove" />
+            Hi there! I'm Nite
+        </text>
+        
+        <text x="0" y="20" text-anchor="start" opacity="0">
+            <set attributeName="opacity" to="1" begin="4.75s" dur="0.15" fill="remove" />
+            Hi there! I'm Nit
+        </text>
+        
+        <text x="0" y="20" text-anchor="start" opacity="0">
+            <set attributeName="opacity" to="1" begin="4.9s" dur="0.15" fill="remove" />
+            Hi there! I'm Ni
+        </text>
+        
+        <text x="0" y="20" text-anchor="start" opacity="0">
+            <set attributeName="opacity" to="1" begin="5.05s" dur="0.15" fill="remove" />
+            Hi there! I'm N
+        </text>
+        
+        <text x="0" y="20" text-anchor="start" opacity="0">
+            <set attributeName="opacity" to="1" begin="5.2s" dur="0.15" fill="remove" />
+            Hi there! I'm N 
+        </text>
+        
+        <text x="0" y="20" text-anchor="start" opacity="0">
+            <set attributeName="opacity" to="1" begin="5.35s" dur="0.15" fill="remove" />
+            Hi there! I'm N a
+        </text>
+        
+        <text x="0" y="20" text-anchor="start" opacity="0">
+            <set attributeName="opacity" to="1" begin="5.5s" dur="0.15" fill="remove" />
+            Hi there! I'm N a 
+        </text>
+        
+        <text x="0" y="20" text-anchor="start" opacity="0">
+            <set attributeName="opacity" to="1" begin="5.65s" dur="0.15" fill="remove" />
+            Hi there! I'm N a D
+        </text>
+        
+        <text x="0" y="20" text-anchor="start" opacity="0">
+            <set attributeName="opacity" to="1" begin="5.8s" dur="0.15" fill="remove" />
+            Hi there! I'm N a De
+        </text>
+        
+        <text x="0" y="20" text-anchor="start" opacity="0">
+            <set attributeName="opacity" to="1" begin="5.95s" dur="0.15" fill="remove" />
+            Hi there! I'm N a Dev
+        </text>
+        
+        <text x="0" y="20" text-anchor="start" opacity="0">
+            <set attributeName="opacity" to="1" begin="6.1s" dur="0.15" fill="remove" />
+            Hi there! I'm N a Deve
+        </text>
+        
+        <text x="0" y="20" text-anchor="start" opacity="0">
+            <set attributeName="opacity" to="1" begin="6.25s" dur="0.15" fill="remove" />
+            Hi there! I'm N a Devel
+        </text>
+        
+        <text x="0" y="20" text-anchor="start" opacity="0">
+            <set attributeName="opacity" to="1" begin="6.4s" dur="0.15" fill="remove" />
+            Hi there! I'm N a Develo
+        </text>
+        
+        <text x="0" y="20" text-anchor="start" opacity="0">
+            <set attributeName="opacity" to="1" begin="6.55s" dur="0.15" fill="remove" />
+            Hi there! I'm N a Develop
+        </text>
+        
+        <text x="0" y="20" text-anchor="start" opacity="0">
+            <set attributeName="opacity" to="1" begin="6.7s" dur="0.15" fill="remove" />
+            Hi there! I'm N a Develope
+        </text>
+        
+        <text x="0" y="20" text-anchor="start" opacity="0">
+            <set attributeName="opacity" to="1" begin="6.85s" dur="0.15" fill="remove" />
+            Hi there! I'm N a Developer
+        </text>
+        
+        <text x="0" y="20" text-anchor="start" opacity="0">
+            <set attributeName="opacity" to="1" begin="7.0s" dur="0.15" fill="remove" />
+            Hi there! I'm N a Developer 
+        </text>
+        
+        <text x="0" y="20" text-anchor="start" opacity="0">
+            <set attributeName="opacity" to="1" begin="7.15s" dur="0.15" fill="remove" />
+            Hi there! I'm N a Developer 👨
+        </text>
+        
+        <text x="0" y="20" text-anchor="start" opacity="0">
+            <set attributeName="opacity" to="1" begin="7.3s" dur="0.15" fill="remove" />
+            Hi there! I'm N a Developer 👨‍
+        </text>
+        
+        <text x="0" y="20" text-anchor="start" opacity="0">
+            <set attributeName="opacity" to="1" begin="7.45s" dur="0.15" fill="freeze" />
+            Hi there! I'm N a Developer 👨‍💻
+        </text>
         
 
-        <set
-            attributeName="opacity"
-            to="1"
-            begin="8.400s"
-        />
-
-        <set
-            attributeName="opacity"
-            to="0"
-            begin="9.000s"
-        />
-
-    </text>
-
-    <text
-        class="typing"
-        x="5"
-        y="30"
-        opacity="0"
-    >
-        I
-
-        <set
-            attributeName="opacity"
-            to="1"
-            begin="9.000s"
-        />
-
-        <set
-            attributeName="opacity"
-            to="0"
-            begin="9.150s"
-        />
-
-    </text>
-
-    <text
-        class="typing"
-        x="5"
-        y="30"
-        opacity="0"
-    >
-        I'
-
-        <set
-            attributeName="opacity"
-            to="1"
-            begin="9.150s"
-        />
-
-        <set
-            attributeName="opacity"
-            to="0"
-            begin="9.300s"
-        />
-
-    </text>
-
-    <text
-        class="typing"
-        x="5"
-        y="30"
-        opacity="0"
-    >
-        I'm
-
-        <set
-            attributeName="opacity"
-            to="1"
-            begin="9.300s"
-        />
-
-        <set
-            attributeName="opacity"
-            to="0"
-            begin="9.450s"
-        />
-
-    </text>
-
-    <text
-        class="typing"
-        x="5"
-        y="30"
-        opacity="0"
-    >
-        I'm 
-
-        <set
-            attributeName="opacity"
-            to="1"
-            begin="9.450s"
-        />
-
-        <set
-            attributeName="opacity"
-            to="0"
-            begin="9.600s"
-        />
-
-    </text>
-
-    <text
-        class="typing"
-        x="5"
-        y="30"
-        opacity="0"
-    >
-        I'm a
-
-        <set
-            attributeName="opacity"
-            to="1"
-            begin="9.600s"
-        />
-
-        <set
-            attributeName="opacity"
-            to="0"
-            begin="9.750s"
-        />
-
-    </text>
-
-    <text
-        class="typing"
-        x="5"
-        y="30"
-        opacity="0"
-    >
-        I'm a 
-
-        <set
-            attributeName="opacity"
-            to="1"
-            begin="9.750s"
-        />
-
-        <set
-            attributeName="opacity"
-            to="0"
-            begin="9.900s"
-        />
-
-    </text>
-
-    <text
-        class="typing"
-        x="5"
-        y="30"
-        opacity="0"
-    >
-        I'm a D
-
-        <set
-            attributeName="opacity"
-            to="1"
-            begin="9.900s"
-        />
-
-        <set
-            attributeName="opacity"
-            to="0"
-            begin="10.050s"
-        />
-
-    </text>
-
-    <text
-        class="typing"
-        x="5"
-        y="30"
-        opacity="0"
-    >
-        I'm a De
-
-        <set
-            attributeName="opacity"
-            to="1"
-            begin="10.050s"
-        />
-
-        <set
-            attributeName="opacity"
-            to="0"
-            begin="10.200s"
-        />
-
-    </text>
-
-    <text
-        class="typing"
-        x="5"
-        y="30"
-        opacity="0"
-    >
-        I'm a Dev
-
-        <set
-            attributeName="opacity"
-            to="1"
-            begin="10.200s"
-        />
-
-        <set
-            attributeName="opacity"
-            to="0"
-            begin="10.350s"
-        />
-
-    </text>
-
-    <text
-        class="typing"
-        x="5"
-        y="30"
-        opacity="0"
-    >
-        I'm a Deve
-
-        <set
-            attributeName="opacity"
-            to="1"
-            begin="10.350s"
-        />
-
-        <set
-            attributeName="opacity"
-            to="0"
-            begin="10.500s"
-        />
-
-    </text>
-
-    <text
-        class="typing"
-        x="5"
-        y="30"
-        opacity="0"
-    >
-        I'm a Devel
-
-        <set
-            attributeName="opacity"
-            to="1"
-            begin="10.500s"
-        />
-
-        <set
-            attributeName="opacity"
-            to="0"
-            begin="10.650s"
-        />
-
-    </text>
-
-    <text
-        class="typing"
-        x="5"
-        y="30"
-        opacity="0"
-    >
-        I'm a Develo
-
-        <set
-            attributeName="opacity"
-            to="1"
-            begin="10.650s"
-        />
-
-        <set
-            attributeName="opacity"
-            to="0"
-            begin="10.800s"
-        />
-
-    </text>
-
-    <text
-        class="typing"
-        x="5"
-        y="30"
-        opacity="0"
-    >
-        I'm a Develop
-
-        <set
-            attributeName="opacity"
-            to="1"
-            begin="10.800s"
-        />
-
-        <set
-            attributeName="opacity"
-            to="0"
-            begin="10.950s"
-        />
-
-    </text>
-
-    <text
-        class="typing"
-        x="5"
-        y="30"
-        opacity="0"
-    >
-        I'm a Develope
-
-        <set
-            attributeName="opacity"
-            to="1"
-            begin="10.950s"
-        />
-
-        <set
-            attributeName="opacity"
-            to="0"
-            begin="11.100s"
-        />
-
-    </text>
-
-    <text
-        class="typing"
-        x="5"
-        y="30"
-        opacity="0"
-    >
-        I'm a Developer
-
-        <set
-            attributeName="opacity"
-            to="1"
-            begin="11.100s"
-        />
-
-        <set
-            attributeName="opacity"
-            to="0"
-            begin="11.250s"
-        />
-
-    </text>
-
-    <text
-        class="typing"
-        x="5"
-        y="30"
-        opacity="0"
-    >
-        I'm a Developer 
-
-        <set
-            attributeName="opacity"
-            to="1"
-            begin="11.250s"
-        />
-
-        <set
-            attributeName="opacity"
-            to="0"
-            begin="11.400s"
-        />
-
-    </text>
-
-    <text
-        class="typing"
-        x="5"
-        y="30"
-        opacity="0"
-    >
-        I'm a Developer 👨
-
-        <set
-            attributeName="opacity"
-            to="1"
-            begin="11.400s"
-        />
-
-        <set
-            attributeName="opacity"
-            to="0"
-            begin="11.550s"
-        />
-
-    </text>
-
-    <text
-        class="typing"
-        x="5"
-        y="30"
-        opacity="0"
-    >
-        I'm a Developer 👨‍
-
-        <set
-            attributeName="opacity"
-            to="1"
-            begin="11.550s"
-        />
-
-        <set
-            attributeName="opacity"
-            to="0"
-            begin="11.700s"
-        />
-
-    </text>
-
-    <text
-        class="typing"
-        x="5"
-        y="30"
-        opacity="0"
-    >
-        I'm a Developer 👨‍💻
-
-        <set
-            attributeName="opacity"
-            to="1"
-            begin="11.700s"
-        />
-
-        <set
-            attributeName="opacity"
-            to="0"
-            begin="13.350s"
-        />
-
-    </text>
-
-    <text
-        class="typing"
-        x="5"
-        y="30"
-        opacity="0"
-    >
-        I'm a Developer 👨‍
-
-        <set
-            attributeName="opacity"
-            to="1"
-            begin="13.350s"
-        />
-
-        <set
-            attributeName="opacity"
-            to="0"
-            begin="13.450s"
-        />
-
-    </text>
-
-    <text
-        class="typing"
-        x="5"
-        y="30"
-        opacity="0"
-    >
-        I'm a Developer 👨
-
-        <set
-            attributeName="opacity"
-            to="1"
-            begin="13.450s"
-        />
-
-        <set
-            attributeName="opacity"
-            to="0"
-            begin="13.550s"
-        />
-
-    </text>
-
-    <text
-        class="typing"
-        x="5"
-        y="30"
-        opacity="0"
-    >
-        I'm a Developer 
-
-        <set
-            attributeName="opacity"
-            to="1"
-            begin="13.550s"
-        />
-
-        <set
-            attributeName="opacity"
-            to="0"
-            begin="13.650s"
-        />
-
-    </text>
-
-    <text
-        class="typing"
-        x="5"
-        y="30"
-        opacity="0"
-    >
-        I'm a Developer
-
-        <set
-            attributeName="opacity"
-            to="1"
-            begin="13.650s"
-        />
-
-        <set
-            attributeName="opacity"
-            to="0"
-            begin="13.750s"
-        />
-
-    </text>
-
-    <text
-        class="typing"
-        x="5"
-        y="30"
-        opacity="0"
-    >
-        I'm a Develope
-
-        <set
-            attributeName="opacity"
-            to="1"
-            begin="13.750s"
-        />
-
-        <set
-            attributeName="opacity"
-            to="0"
-            begin="13.850s"
-        />
-
-    </text>
-
-    <text
-        class="typing"
-        x="5"
-        y="30"
-        opacity="0"
-    >
-        I'm a Develop
-
-        <set
-            attributeName="opacity"
-            to="1"
-            begin="13.850s"
-        />
-
-        <set
-            attributeName="opacity"
-            to="0"
-            begin="13.950s"
-        />
-
-    </text>
-
-    <text
-        class="typing"
-        x="5"
-        y="30"
-        opacity="0"
-    >
-        I'm a Develo
-
-        <set
-            attributeName="opacity"
-            to="1"
-            begin="13.950s"
-        />
-
-        <set
-            attributeName="opacity"
-            to="0"
-            begin="14.050s"
-        />
-
-    </text>
-
-    <text
-        class="typing"
-        x="5"
-        y="30"
-        opacity="0"
-    >
-        I'm a Devel
-
-        <set
-            attributeName="opacity"
-            to="1"
-            begin="14.050s"
-        />
-
-        <set
-            attributeName="opacity"
-            to="0"
-            begin="14.150s"
-        />
-
-    </text>
-
-    <text
-        class="typing"
-        x="5"
-        y="30"
-        opacity="0"
-    >
-        I'm a Deve
-
-        <set
-            attributeName="opacity"
-            to="1"
-            begin="14.150s"
-        />
-
-        <set
-            attributeName="opacity"
-            to="0"
-            begin="14.250s"
-        />
-
-    </text>
-
-    <text
-        class="typing"
-        x="5"
-        y="30"
-        opacity="0"
-    >
-        I'm a Dev
-
-        <set
-            attributeName="opacity"
-            to="1"
-            begin="14.250s"
-        />
-
-        <set
-            attributeName="opacity"
-            to="0"
-            begin="14.350s"
-        />
-
-    </text>
-
-    <text
-        class="typing"
-        x="5"
-        y="30"
-        opacity="0"
-    >
-        I'm a De
-
-        <set
-            attributeName="opacity"
-            to="1"
-            begin="14.350s"
-        />
-
-        <set
-            attributeName="opacity"
-            to="0"
-            begin="14.450s"
-        />
-
-    </text>
-
-    <text
-        class="typing"
-        x="5"
-        y="30"
-        opacity="0"
-    >
-        I'm a D
-
-        <set
-            attributeName="opacity"
-            to="1"
-            begin="14.450s"
-        />
-
-        <set
-            attributeName="opacity"
-            to="0"
-            begin="14.550s"
-        />
-
-    </text>
-
-    <text
-        class="typing"
-        x="5"
-        y="30"
-        opacity="0"
-    >
-        I'm a 
-
-        <set
-            attributeName="opacity"
-            to="1"
-            begin="14.550s"
-        />
-
-        <set
-            attributeName="opacity"
-            to="0"
-            begin="14.650s"
-        />
-
-    </text>
-
-    <text
-        class="typing"
-        x="5"
-        y="30"
-        opacity="0"
-    >
-        I'm a
-
-        <set
-            attributeName="opacity"
-            to="1"
-            begin="14.650s"
-        />
-
-        <set
-            attributeName="opacity"
-            to="0"
-            begin="14.750s"
-        />
-
-    </text>
-
-    <text
-        class="typing"
-        x="5"
-        y="30"
-        opacity="0"
-    >
-        I'm 
-
-        <set
-            attributeName="opacity"
-            to="1"
-            begin="14.750s"
-        />
-
-        <set
-            attributeName="opacity"
-            to="0"
-            begin="14.850s"
-        />
-
-    </text>
-
-    <text
-        class="typing"
-        x="5"
-        y="30"
-        opacity="0"
-    >
-        I'm
-
-        <set
-            attributeName="opacity"
-            to="1"
-            begin="14.850s"
-        />
-
-        <set
-            attributeName="opacity"
-            to="0"
-            begin="14.950s"
-        />
-
-    </text>
-
-    <text
-        class="typing"
-        x="5"
-        y="30"
-        opacity="0"
-    >
-        I'
-
-        <set
-            attributeName="opacity"
-            to="1"
-            begin="14.950s"
-        />
-
-        <set
-            attributeName="opacity"
-            to="0"
-            begin="15.050s"
-        />
-
-    </text>
-
-    <text
-        class="typing"
-        x="5"
-        y="30"
-        opacity="0"
-    >
-        I
-
-        <set
-            attributeName="opacity"
-            to="1"
-            begin="15.050s"
-        />
-
-        <set
-            attributeName="opacity"
-            to="0"
-            begin="15.150s"
-        />
-
-    </text>
-
-    <text
-        class="typing"
-        x="5"
-        y="30"
-        opacity="0"
-    >
-        
-
-        <set
-            attributeName="opacity"
-            to="1"
-            begin="15.150s"
-        />
-
-        <set
-            attributeName="opacity"
-            to="0"
-            begin="15.750s"
-        />
-
-    </text>
-
-</g>
-
-<!-- Restart the entire animation -->
-<rect
-    x="0"
-    y="0"
-    width="1"
-    height="1"
-    opacity="0"
->
-    <animate
-        attributeName="opacity"
-        values="0;0"
-        dur="15.750s"
-        repeatCount="indefinite"
-    />
-</rect>
-
-</svg>
+        <!-- Animated emoji -->
+        <text x="297.59999999999997" y="20" text-anchor="start" opacity="0">
+            <set attributeName="opacity" to="1" begin="7.9s" dur="0.001s" fill="freeze" />
+            👋
+            <animateTransform attributeName="transform"
+                type="rotate"
+                values="-20 319.59999999999997 20; 20 319.59999999999997 20; -20 319.59999999999997 20"
+                dur="0.5s"
+                repeatCount="indefinite" />
+        </text>
+    </svg>
+    
