@@ -2,7 +2,7 @@ TEXT = "Hi there! I'm Nitesh 👋|<<<<<<<< a Developer 👨‍💻"
 FILENAME = "nitesh_typing.svg"
 
 def build_svg_animation(text: str) -> str:
-    width = 210
+    width = 240
     height = 30
     font_size = 20
 
