@@ -1,187 +1,86 @@
+TEXT = "Hi there! I'm Nitesh 👋|<<<<<<< a Developer 👨‍💻"
 FILENAME = "nitesh_typing.svg"
 
-PHRASES = [
-    "Hi there! I'm Nitesh Kumar 👋",
-    "I'm a Developer 👨‍💻",
-]
+def build_svg_animation(text: str) -> str:
+    width = 210
+    height = 30
+    font_size = 20
 
-WIDTH = 500
-HEIGHT = 45
-FONT_SIZE = 20
-
-TYPE_SPEED = 0.15
-DELETE_SPEED = 0.10
-PAUSE = 1.5
-
-
-def build_svg_animation(phrases):
-
-    frames = []
-
-    current = ""
-    time = 0.0
-
-    # Create typing + deleting frames
-    for phrase in phrases:
-
-        # -------------------------
-        # TYPE
-        # -------------------------
-        for char in phrase:
-
-            current += char
-
-            frames.append({
-                "text": current,
-                "start": time,
-            })
-
-            time += TYPE_SPEED
-
-        # -------------------------
-        # PAUSE
-        # -------------------------
-        time += PAUSE
-
-        # -------------------------
-        # DELETE
-        # -------------------------
-        for _ in phrase:
-
-            current = current[:-1]
-
-            frames.append({
-                "text": current,
-                "start": time,
-            })
-
-            time += DELETE_SPEED
-
-        # Small pause before next phrase
-        time += 0.5
-
-    total_time = time
-
-    # -------------------------
-    # SVG
-    # -------------------------
-
-    svg = f'''<?xml version="1.0" encoding="UTF-8"?>
-
-<svg
-    xmlns="http://www.w3.org/2000/svg"
-    width="{WIDTH}"
-    height="{HEIGHT}"
-    viewBox="0 0 {WIDTH} {HEIGHT}"
->
-
-<style>
-
-    .typing {{
-        font-family: Arial, sans-serif;
-        font-size: {FONT_SIZE}px;
-        font-weight: bold;
-        fill: #1F2328;
-    }}
-
-    @media (prefers-color-scheme: dark) {{
-        .typing {{
-            fill: #D1D7E0;
-        }}
-    }}
-
-</style>
-
-<clipPath id="clip">
-    <rect
-        x="0"
-        y="0"
-        width="{WIDTH}"
-        height="{HEIGHT}"
-    />
-</clipPath>
-
-<g clip-path="url(#clip)">
-'''
-
-    # -------------------------
-    # Create frames
-    # -------------------------
-
-    for i, frame in enumerate(frames):
-
-        start = frame["start"]
-
-        if i + 1 < len(frames):
-            end = frames[i + 1]["start"]
+    # Build <text> blocks for each step of the typing
+    lines = []
+    visible = ""
+    step = 0
+    time = 0
+    for idx, char in enumerate(text):
+        if char == "|":
+            continue
+        if char == "<":
+            visible = visible[:-1]  # backspace
         else:
-            end = total_time
+            visible += char
 
-        duration = end - start
+        # Make sure to freeze the last step
+        is_last_step = (idx == len(text) - 1)
+        fill_type = "freeze" if is_last_step else "remove"
 
-        text = frame["text"]
+        # Compute delay between chars
+        is_pause = text[idx + 1] == "|" if not is_last_step else False
+        delay = 1.0 if is_pause else 0.15
 
-        # Every frame explicitly appears
-        # and then disappears.
-        svg += f'''
-    <text
-        class="typing"
-        x="5"
-        y="30"
-        opacity="0"
-    >
-        {text}
+        lines.append(f"""
+        <text x="0" y="{font_size}" text-anchor="start" opacity="0">
+            <set attributeName="opacity" to="1" begin="{round(time, 3)}s" dur="{delay}" fill="{fill_type}" />
+            {visible}
+        </text>
+        """)
+        step += 1
+        time += delay
 
-        <set
-            attributeName="opacity"
-            to="1"
-            begin="{start:.3f}s"
-        />
+    emoji_x = len(visible) * font_size * 0.48;
+    pivot_x = emoji_x + 22
+    pivot_y = font_size
 
-        <set
-            attributeName="opacity"
-            to="0"
-            begin="{end:.3f}s"
-        />
+    # Create SVG content
+    svg = f"""
+    <svg width="{width}" height="{height}" xmlns="http://www.w3.org/2000/svg">
+        <!-- Made as a joke by brenocq, people get my name wrong all the same at Starbucks -->
+        <style>
+            text {{
+                font-family: Arial, sans-serif;
+                font-weight: bold;
+                font-size: {font_size}px;
+                fill: #1F2328;
+                opacity: 0;
+            }}
+            @media (prefers-color-scheme: dark) {{
+                text {{
+                    fill: #D1D7E0;
+                }}
+            }}
+        </style>
 
-    </text>
-'''
+        <!-- Typing text -->
+        {''.join(lines)}
 
-    svg += f'''
-</g>
-
-<!-- Restart the entire animation -->
-<rect
-    x="0"
-    y="0"
-    width="1"
-    height="1"
-    opacity="0"
->
-    <animate
-        attributeName="opacity"
-        values="0;0"
-        dur="{total_time:.3f}s"
-        repeatCount="indefinite"
-    />
-</rect>
-
-</svg>
-'''
-
+        <!-- Animated emoji -->
+        <text x="{emoji_x}" y="{font_size}" text-anchor="start" opacity="0">
+            <set attributeName="opacity" to="1" begin="{round(time+2*delay, 3)}s" dur="0.001s" fill="freeze" />
+            👋
+            <animateTransform attributeName="transform"
+                type="rotate"
+                values="-20 {pivot_x} {pivot_y}; 20 {pivot_x} {pivot_y}; -20 {pivot_x} {pivot_y}"
+                dur="0.5s"
+                repeatCount="indefinite" />
+        </text>
+    </svg>
+    """
     return svg
 
-
-def save_svg(filename, content):
-
-    with open(filename, "w", encoding="utf-8") as file:
-        file.write(content)
-
+def save_svg(filename: str, content: str):
+    with open(filename, "w") as f:
+        f.write(content)
     print(f"Saved SVG to {filename}")
 
-
 if __name__ == "__main__":
-
-    svg = build_svg_animation(PHRASES)
-
-    save_svg(FILENAME, svg)
+    svg_content = build_svg_animation(TEXT)
+    save_svg(FILENAME, svg_content)
